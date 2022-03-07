@@ -5,9 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{% block title %}{% endblock %} | MASWAE</title>
-
 </head>
 <body>
-    <h1>Mi Web Personal</h1>
+    {% load bootstrap4 %}
+    {% bootstrap_css %}
+    
+    <div class="container">
+        <nav class="navbar navbar-light bg-light">
+            <span class="navbar-brand mb-0 h1">MASWAE-<small style="font-style: italic;">Multi Agent System for Accesibility Evaluation</small></span>
+        </nav>
+        <div class="row">
+        <div class="col-8">
+            <h1>Descripcion de la herramienta</h1>
+        </div>
+        <div class="col-4">
+            <div class="row">
+                <div class="col-12">
+                    <h3>Ingreso</h3>
+                </div>
+                <div class="col-12">
+                    <form role="form" method="post">
+                        <div class="form-group">
+                            <label for="user_name">Nombre de Usuario</label>
+                            <input type="text" class="form-control" id="user_name"/>
+                        </div>
+                        <div class="form-group">
+                            <label for="user_password">Clave</label>
+                            <input type="password" class="form-control" id="user_password"/>
+                        </div>
+                        {% buttons submit='Ingresar' reset="Cancel" %}{% endbuttons %}
+                    </form>
+                </div>
+                <div class="col-12">
+                    <p>Si desea registrarse presione <a href='register'>aquí</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
 </body>
 </html>

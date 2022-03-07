@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{% block title %}{% endblock %} | MASWAE</title>
+</head>
+<body>
+    {% load bootstrap4 %}
+    {% bootstrap_css %}
+    
+    <div class="container">
+        <nav class="navbar navbar-light bg-light">
+            <span class="navbar-brand mb-0 h1">MASWAE-<small style="font-style: italic;">Multi Agent System for Accesibility Evaluation</small></span>
+        </nav>
+        <div class="row">
+            <div class="col-12">
+                <h1>Comienzo del proceso de registros</h1>
+                <p>
+                    A continuación será guiado por el proceso de registro de nuevo usuario. Existen dos modalidades de usuario:
+                    <ol>
+                        <li>
+                            <b>Usuario Normal:</b> si Ud. es un usuario normal, tratando de utilizar las funcionalidades asistivas de la plataforma ajustadas a su perfil. Para este caso y con el fin de 
+                            adaptar la funcionalidad, se realizará un custionario.
+                        </li>
+                        <li>
+                            <b>Usuario desarrollador:</b> esta clase de usuario tiene accesso al analisis de Accesibilidad teniendo en cuenta varios perfiles de usuario.
+                        </li>
+                    </ol>
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <a href="register-user" class="btn btn-primary">Usuario Normal</a>
+                <a href="register-deveolper" class="btn btn-primary">Usuario Desarrollador</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

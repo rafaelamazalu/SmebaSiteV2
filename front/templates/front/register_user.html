@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{% block title %}{% endblock %} | MASWAE</title>
+</head>
+<body>
+    {% load bootstrap4 %}
+    {% bootstrap_css %}
+    
+    <div class="container">
+        <nav class="navbar navbar-light bg-light">
+            <span class="navbar-brand mb-0 h1">MASWAE-<small style="font-style: italic;">Multi Agent System for Accesibility Evaluation</small></span>
+        </nav>
+        <div class="row">
+            <div class="col-12">
+                <h1>Registro de Usuario</h1>
+                <p>
+                    Por favor, ingrese los datos en el formulario a continuación para luego continuar con el cuestionario de pruebas visuales:
+                    {% if error_message %}<p><strong>{{ error_message }}</strong></p>{% endif %}
+                    <form role="form" method="post">
+                        {% csrf_token %} 
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="form-group">
+                                    <label for="username">Nombre de Usuario</label>
+                                    <input type="text" class="form-control" id="username" name="username" value="{{usuario.username}}"/>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label for="password">Clave</label>
+                                    <input type="password" class="form-control" id="password" name="password"/>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label for="password_repeat">Reingreso de Clave</label>
+                                    <input type="password" class="form-control" id="password_repeat" name="password_repeat"/>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label for="name">Apellido</label>
+                                    <input type="text" class="form-control" id="surname" name="surname" value="{{usuario.apellido}}"/>
+                                </div>        
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label for="name">Nombre</label>
+                                    <input type="text" class="form-control" id="name" name="name" value="{{usuario.nombre}}"/>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label for="birthdate">Fecha de Nacimiento</label>
+                                    <input type="date" class="form-control" id="birthdate" name="birthdate" value="{{usuario.fechanacimiento}}"/>
+                                </div>        
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label for="idgenero">Genero</label>
+                                    <select class="form-control" name="idgenero" id="idgenero" value="{{usuario.idgenero}}">
+                                        {% for genero in generos %}
+                                        <option value="{{ genero.idgenero }}">{{ genero.descripcion }}</option>
+                                        {% endfor %}
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        {% buttons submit='Continuar' reset="Cancelar" %}{% endbuttons %}
+                    </form>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

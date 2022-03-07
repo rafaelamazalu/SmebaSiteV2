@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{% block title %}{% endblock %} | MASWAE</title>
+</head>
+<body>
+    {% load bootstrap4 %}
+    {% bootstrap_css %}
+    
+    <div class="container">
+        <nav class="navbar navbar-light bg-light">
+            <span class="navbar-brand mb-0 h1">MASWAE-<small style="font-style: italic;">Multi Agent System for Accesibility Evaluation</small></span>
+        </nav>
+        <div class="row">
+            <div class="col-12">
+              <h2 class="alert alert-primary">Pregunta: <b>{{pregunta.textopredefinido}}</b></h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <form role="form" method="post">
+                    {% csrf_token %} 
+                    <input type="hidden" name="cuestionario_id" value="{{cuestionario.idcuestionario}}" />
+                    <input type="hidden" name="pregunta_id" value="{{pregunta.idpregunta}}" />
+                    {% if pregunta.idtiporespuesta.idtiporespuesta == 4 %}
+                        <select name="respuesta_cuestionario_value" class="form-control">
+                            <option value="">Seleccione su respuesta...</option>
+                            <option value="NO">NO</option>
+                            <option value="SI">SI</option>
+                        </select>
+                    {%else%}
+                    {% load static %}
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <img src="{% static 'maswae/' %}{{pregunta.rutaimagen}}" alt="Imagen relacionada a la pregunta">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <b><label for="respuesta_cuestionario_value">Su respuesta: </label></b>
+                            <input type="text" name="respuesta_cuestionario_value"  class="form-control" id="respuesta_cuestionario_value"  autocomplete="off" />
+                        </div>
+                    </div>
+                    {% endif %}
+                    <hr />
+                    {% buttons submit='Continuar' reset="Cancelar" %}{% endbuttons %}
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

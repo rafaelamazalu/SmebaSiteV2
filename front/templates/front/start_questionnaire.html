@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{% block title %}{% endblock %} | MASWAE</title>
+</head>
+<body>
+    {% load bootstrap4 %}
+    {% bootstrap_css %}
+    
+    <div class="container">
+        <nav class="navbar navbar-light bg-light">
+            <span class="navbar-brand mb-0 h1">MASWAE-<small style="font-style: italic;">Multi Agent System for Accesibility Evaluation</small></span>
+        </nav>
+        <div class="row">
+            <div class="col-12">
+              <p class="alert alert-primary">Cuestionario para el usuario: {{usuario.nombre}} - {{os}} - {{browser}} - {{language}}</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <form role="form" method="post">
+                    {% csrf_token %} 
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="form-group">
+                                <label for="usalentes">Usa lentes</label>
+                                <select class="form-control" name="usalentes" id="usalentes" value="{{cuestionario.usalentes}}">
+                                    <option></option>
+                                    <option value=1>SI</option>
+                                    <option value=0>NO</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="form-group">
+                                <label for="lectorpantalla">Usa lector de pantalla</label>
+                                <select class="form-control" name="lectorpantalla" id="lectorpantalla" value="{{cuestionario.lectorpantalla}}">
+                                    <option></option>
+                                    <option value=1>SI</option>
+                                    <option value=0>NO</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="form-group">
+                                <label for="magnificador">Usa Magnificador de pantalla</label>
+                                <select class="form-control" name="magnificador" id="magnificador" value="{{cuestionario.magnificador}}">
+                                    <option></option>
+                                    <option value=1>SI</option>
+                                    <option value=0>NO</option>
+                                </select>
+                            </div>       
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="form-group">
+                                <label for="reconocedorvoz">Usa Reconocedor de Voz</label>
+                                <select class="form-control" name="reconocedorvoz" id="reconocedorvoz" value="{{cuestionario.reconocedorvoz}}">
+                                    <option></option>
+                                    <option value=1>SI</option>
+                                    <option value=0>NO</option>
+                                </select>
+                            </div>       
+                        </div>
+                    </div>
+                    {% buttons submit='Continuar' reset="Cancelar" %}{% endbuttons %}
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
