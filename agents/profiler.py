@@ -22,6 +22,14 @@ class AGP(BDIAgent):
             print("RecvBehav running")
             msg = await self.receive(timeout=5)  # wait for a message for 10 seconds
             if msg:
+<<<<<<< HEAD
+                print("Message received with content: {}".format(msg.body))
+                print("From: {}".format(msg.sender))
+                self.agent.controller_jid = msg.sender
+                knowledge = json.loads(msg.body)
+                #print("Agregando conocimiento al agente {}, value: X",knowledge.predicate)
+                self.agent.bdi.set_belief(knowledge["predicate"],knowledge["value"])
+=======
                 #print("Message received with content: {}".format(msg.body))
                 print("From: {}".format(msg.sender))
                 self.agent.controller_jid = msg.sender
@@ -38,6 +46,7 @@ class AGP(BDIAgent):
                 self.agent.bdi.set_belief('startanalysis')
                 print("Finalizacion del analisis")
                     
+>>>>>>> b8bbdb783c1aa74c5296c06ffbd9a681217a3145
             else:
                 print("Did not received any message after 10 seconds")
 
@@ -65,7 +74,12 @@ class AGP(BDIAgent):
                 msg.body = json.dumps(status)                    # Set the message content
 
                 await self.send(msg)
+<<<<<<< HEAD
+                result = await self.receive(timeout=20)
+                self.exit_code = "Respuesta enviada"
+=======
                 self.exit_code = "Respuesta enviada: " + status
+>>>>>>> b8bbdb783c1aa74c5296c06ffbd9a681217a3145
         print("Enviando notificacion de vuelta a" + str(self.controller_jid))
         print(status)
         self.add_behaviour(ResponseBehav())
@@ -78,7 +92,11 @@ class AGP(BDIAgent):
         self.add_behaviour(b, template)
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='spade bdi master-server example')
+<<<<<<< HEAD
+    parser.add_argument('--server', type=str, default="localhost", help='XMPP server address.')
+=======
     parser.add_argument('--server', type=str, default="fabian-dellin", help='XMPP server address.')
+>>>>>>> b8bbdb783c1aa74c5296c06ffbd9a681217a3145
     parser.add_argument('--password', type=str, default="profiler", help='XMPP password for the agents.')
     args = parser.parse_args()
     a = AGP("profiler@" + args.server, args.password, "profiler.asl",verify_security=False)

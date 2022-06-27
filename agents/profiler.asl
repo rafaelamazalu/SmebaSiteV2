@@ -25,6 +25,10 @@ declara_epilepsia_fotosensible(0).
 +ishihara10(X,Y): monocromatismo(Z) & daltonismo_rv(T) <- +monocromatismo(Z + X); -monocromatismo(Z);-daltonismo_rv(T);+daltonismo_rv(T+Y).
 +ishihara11(X,Y): monocromatismo(Z) & daltonismo_rv(T) <- +monocromatismo(Z + X); -monocromatismo(Z);-daltonismo_rv(T);+daltonismo_rv(T+Y).
 +ishihara12(X,Y): monocromatismo(Z) & daltonismo_rv(T) <- +monocromatismo(Z + X); -monocromatismo(Z);-daltonismo_rv(T);+daltonismo_rv(T+Y).
+<<<<<<< HEAD
+
++monocromatismo(X) : X > 10 <- +discapacidad(monocromatismo);.print("Se detecta monocromatismo").
+=======
 +ishihara13(X,Y): monocromatismo(Z) & daltonismo_rv(T) <- +monocromatismo(Z + X); -monocromatismo(Z);-daltonismo_rv(T);+daltonismo_rv(T+Y).
 +ishihara14(X,Y): monocromatismo(Z) & daltonismo_rv(T) <- +monocromatismo(Z + X); -monocromatismo(Z);-daltonismo_rv(T);+daltonismo_rv(T+Y).
 +ishihara15(X,Y): monocromatismo(Z) & daltonismo_rv(T) <- +monocromatismo(Z + X); -monocromatismo(Z);-daltonismo_rv(T);+daltonismo_rv(T+Y).
@@ -43,6 +47,7 @@ declara_epilepsia_fotosensible(0).
 
 
 +monocromatismo(X) : X > 1 <- +discapacidad(monocromatismo);.print("Se detecta monocromatismo").
+>>>>>>> b8bbdb783c1aa74c5296c06ffbd9a681217a3145
 +daltonimos_rv(X): X > 10 <- +discapacidad(daltonismo);.print("Se detecta daltonismo").
 !startanalysis.
 

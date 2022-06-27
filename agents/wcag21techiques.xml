@@ -1,0 +1,2426 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!---  TECNICAS PARA WCAG 2 -->  
+ 
+ <wcag2techniques>
+
+  <!---  TECNICAS GENERALES --> 
+  <techniques>
+    <type>General</type>
+    <typeId>G</typeId>
+    <uri>https://www.w3.org/WAI/WCAG21/Techniques/#general</uri>
+    
+    <technique>
+      <techniquesId>G1</techniquesId>
+      <description>Adding a link at the top of each page that goes directly to the main content area</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>G4</techniquesId>
+      <description>Allowing the content to be paused and restarted from where it was paused</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>G5</techniquesId>
+      <description>Allowing users to complete an activity without any time limit</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>G8</techniquesId>
+      <description>Providing a movie with extended audio descriptions</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>G9</techniquesId>
+      <description>Creating captions for live synchronized media</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>G10</techniquesId>
+      <description>Creating components using a technology that supports the accessibility API features of the platforms on which the user agents will be run to expose the names and roles, allow user-settable properties to be directly set, and provide notification of changes</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>G11</techniquesId>
+      <description>Creating content that blinks for less than 5 seconds</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>G13</techniquesId>
+      <description>Describing what will happen before a change to a form control that causes a change of context to occur is made</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>G14</techniquesId>
+      <description>Ensuring that information conveyed by color differences is also available in text</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>G15</techniquesId>
+      <description>Using a tool to ensure that content does not violate the general flash threshold or red flash threshold</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>G17</techniquesId>
+      <description>Ensuring that a contrast ratio of at least 7:1 exists between text (and images of text) and background behind the text</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>G18</techniquesId>
+      <description>Ensuring that a contrast ratio of at least 4.5:1 exists between text (and images of text) and background behind the text</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>G19</techniquesId>
+      <description>Ensuring that no component of the content flashes more than three times in any 1-second period</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>G21</techniquesId>
+      <description>Ensuring that users are not trapped in content</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>G53</techniquesId>
+      <description>Identifying the purpose of a link using link text combined with the text of the enclosing sentence</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>G54</techniquesId>
+      <description>Including a sign language interpreter in the video stream</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>G55</techniquesId>
+      <description>Linking to definitions</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>G56</techniquesId>
+      <description>Mixing audio files so that non-speech sounds are at least 20 decibels lower than the speech audio content</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>G57</techniquesId>
+      <description>Ordering the content in a meaningful sequence</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>G58</techniquesId>
+      <description>Placing a link to the alternative for time-based media immediately next to the non-text content</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>G59</techniquesId>
+      <description>Placing the interactive elements in an order that follows sequences and relationships within the content</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>G60</techniquesId>
+      <description>Playing a sound that turns off automatically within three seconds</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>G61</techniquesId>
+      <description>Presenting repeated components in the same relative order each time they appear</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>G62</techniquesId>
+      <description>Providing a glossary</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>G63</techniquesId>
+      <description>Providing a site map</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>G64</techniquesId>
+      <description>Providing a Table of Contents</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>G65</techniquesId>
+      <description>Providing a breadcrumb trail</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>G68</techniquesId>
+      <description>Providing a short text alternative that describes the purpose of live audio-only and live video-only content</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>G69</techniquesId>
+      <description>Providing an alternative for time based media</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>G70</techniquesId>
+      <description>Providing a function to search an online dictionary</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>G71</techniquesId>
+      <description>Providing a help link on every Web page</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>G73</techniquesId>
+      <description>Providing a long description in another location with a link to it that is immediately adjacent to the non-text content</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>G74</techniquesId>
+      <description>Providing a long description in text near the non-text content, with a reference to the location of the long description in the short description</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>G75</techniquesId>
+      <description>Providing a mechanism to postpone any updating of content</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>G76</techniquesId>
+      <description>Providing a mechanism to request an update of the content instead of updating automatically</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>G78</techniquesId>
+      <description>Providing a second, user-selectable, audio track that includes audio descriptions</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>G79</techniquesId>
+      <description>Providing a spoken version of the text</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>G80</techniquesId>
+      <description>Providing a submit button to initiate a change of context</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>G81</techniquesId>
+      <description>Providing a synchronized video of the sign language interpreter that can be displayed in a different viewport or overlaid on the image by the player</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>G82</techniquesId>
+      <description>Providing a text alternative that identifies the purpose of the non-text content</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>G83</techniquesId>
+      <description>Providing text descriptions to identify required fields that were not completed</description>  
+    </technique>
+    
+     <technique>
+      <techniquesId>G84</techniquesId>
+      <description>Providing a text description when the user provides information that is not in the list of allowed values</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>G85</techniquesId>
+      <description>Providing a text description when user input falls outside the required format or values</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>G86</techniquesId>
+      <description>Providing a text summary that can be understood by people with lower secondary education level reading ability</description>  
+    </technique>
+    
+     <technique>
+      <techniquesId>G87</techniquesId>
+      <description>Providing closed captions</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>G88</techniquesId>
+      <description>Providing descriptive titles for Web pages</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>G89</techniquesId>
+      <description>Providing expected data format and example</description>  
+    </technique>
+    
+     <technique>
+      <techniquesId>G90</techniquesId>
+      <description>Providing keyboard-triggered event handlers</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>G91</techniquesId>
+      <description>Providing link text that describes the purpose of a link</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>G92</techniquesId>
+      <description>Providing long description for non-text content that serves the same purpose and presents the same information</description>  
+    </technique>
+    
+     <technique>
+      <techniquesId>G93</techniquesId>
+      <description>Providing open (always visible) captions</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>G94</techniquesId>
+      <description>Providing short text alternative for non-text content that serves the same purpose and presents the same information as the non-text content</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>G95</techniquesId>
+      <description>Providing short text alternatives that provide a brief description of the non-text content</description>  
+    </technique>
+    
+     <technique>
+      <techniquesId>G96</techniquesId>
+      <description>Providing textual identification of items that otherwise rely only on sensory information to be understood</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>G97</techniquesId>
+      <description>Providing the first use of an abbreviation immediately before or after the expanded form</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>G98</techniquesId>
+      <description>Providing the ability for the user to review and correct answers before submitting</description>  
+    </technique>
+    
+     <technique>
+      <techniquesId>G99</techniquesId>
+      <description>Providing the ability to recover deleted information</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>G100</techniquesId>
+      <description>Providing a short text alternative which is the accepted name or a descriptive name of the non-text content</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>G101</techniquesId>
+      <description>Providing the definition of a word or phrase used in an unusual or restricted way</description>  
+    </technique>
+    
+     <technique>
+      <techniquesId>G102</techniquesId>
+      <description>Providing the expansion or explanation of an abbreviation</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>G103</techniquesId>
+      <description>Providing visual illustrations, pictures, and symbols to help explain ideas, events, and processes</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>G105</techniquesId>
+      <description>Saving data so that it can be used after a user re-authenticates</description>  
+    </technique>
+    
+     <technique>
+      <techniquesId>G107</techniquesId>
+      <description>Using "activate" rather than "focus" as a trigger for changes of context</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>G108</techniquesId>
+      <description>Using markup features to expose the name and role, allow user-settable properties to be directly set, and provide notification of changes</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>G110</techniquesId>
+      <description>Using an instant client-side redirect</description>  
+    </technique>
+    
+     <technique>
+      <techniquesId>G111</techniquesId>
+      <description>Using color and pattern</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>G112</techniquesId>
+      <description>Using inline definitions</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>G115</techniquesId>
+      <description>Using semantic elements to mark up structure</description>  
+    </technique>
+    
+     <technique>
+      <techniquesId>G117</techniquesId>
+      <description>Using text to convey information that is conveyed by variations in presentation of text</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>G120</techniquesId>
+      <description>Providing the pronunciation immediately following the word</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>G121</techniquesId>
+      <description>Linking to pronunciations</description>  
+    </technique>
+    
+     <technique>
+      <techniquesId>G123</techniquesId>
+      <description>Adding a link at the beginning of a block of repeated content to go to the end of the block</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>G124</techniquesId>
+      <description>Adding links at the top of the page to each area of the content</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>G125</techniquesId>
+      <description>Providing links to navigate to related Web pages</description>  
+    </technique>
+    
+     <technique>
+      <techniquesId>G126</techniquesId>
+      <description>Providing a list of links to all other Web pages</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>G127</techniquesId>
+      <description>Identifying a Web page's relationship to a larger collection of Web pages</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>G128</techniquesId>
+      <description>Indicating current location within navigation bars</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>G130</techniquesId>
+      <description>Providing descriptive headings</description>  
+    </technique>
+    
+     <technique>
+      <techniquesId>G131</techniquesId>
+      <description>Providing descriptive labels</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>G133</techniquesId>
+      <description>Providing a checkbox on the first page of a multipart form that allows users to ask for longer session time limit or no session time limit</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>G134</techniquesId>
+      <description>Validating Web pages</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>G135</techniquesId>
+      <description>Using the accessibility API features of a technology to expose names and roles, to allow user-settable properties to be directly set, and to provide notification of changes</description>  
+    </technique>
+    
+     <technique>
+      <techniquesId>G136</techniquesId>
+      <description>Providing a link at the beginning of a nonconforming Web page that points to a conforming alternate version</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>G138</techniquesId>
+      <description>Using semantic markup whenever color cues are used</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>G139</techniquesId>
+      <description>Creating a mechanism that allows users to jump to errors</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>G140</techniquesId>
+      <description>Separating information and structure from presentation to enable different presentations</description>  
+    </technique>
+    
+     <technique>
+      <techniquesId>G141</techniquesId>
+      <description>Organizing a page using headings</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>G142</techniquesId>
+      <description>Using a technology that has commonly-available user agents that support zoom</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>G143</techniquesId>
+      <description>Providing a text alternative that describes the purpose of the CAPTCHA</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>G144</techniquesId>
+      <description>Ensuring that the Web Page contains another CAPTCHA serving the same purpose using a different modality</description>  
+    </technique>
+    
+     <technique>
+      <techniquesId>G145</techniquesId>
+      <description>Ensuring that a contrast ratio of at least 3:1 exists between text (and images of text) and background behind the text</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>G146</techniquesId>
+      <description>Using liquid layout</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>G148</techniquesId>
+      <description>Not specifying background color, not specifying text color, and not using technology features that change those defaults</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>G149</techniquesId>
+      <description>Using user interface components that are highlighted by the user agent when they receive focus</description>  
+    </technique>
+    
+     <technique>
+      <techniquesId>G150</techniquesId>
+      <description>Providing text based alternatives for live audio-only content</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>G151</techniquesId>
+      <description>Providing a link to a text transcript of a prepared statement or script if the script is followed</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>G152</techniquesId>
+      <description>Setting animated gif images to stop blinking after n cycles (within 5 seconds)</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>G153</techniquesId>
+      <description>Making the text easier to read</description>  
+    </technique>
+    
+     <technique>
+      <techniquesId>G155</techniquesId>
+      <description>Providing a checkbox in addition to a submit button</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>G156</techniquesId>
+      <description>Using a technology that has commonly-available user agents that can change the foreground and background of blocks of text</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>G157</techniquesId>
+      <description>Incorporating a live audio captioning service into a Web page</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>G158</techniquesId>
+      <description>Providing an alternative for time-based media for audio-only content</description>  
+    </technique>
+    
+     <technique>
+      <techniquesId>G159</techniquesId>
+      <description>Providing an alternative for time-based media for video-only content</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>G160</techniquesId>
+      <description>Providing sign language versions of information, ideas, and processes that must be understood in order to use the content</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>G161</techniquesId>
+      <description>Providing a search function to help users find content</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>G162</techniquesId>
+      <description>Positioning labels to maximize predictability of relationships</description>  
+    </technique>
+    
+     <technique>
+      <techniquesId>G163</techniquesId>
+      <description>Using standard diacritical marks that can be turned off</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>G164</techniquesId>
+      <description>Providing a stated time within which an online request (or transaction) may be amended or canceled by the user after making the request</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>G165</techniquesId>
+      <description>Using the default focus indicator for the platform so that high visibility default focus indicators will carry over</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>G166</techniquesId>
+      <description>Providing audio that describes the important video content and describing it as such</description>  
+    </technique>
+    
+     <technique>
+      <techniquesId>G167</techniquesId>
+      <description>Using an adjacent button to label the purpose of a field</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>G168</techniquesId>
+      <description>Requesting confirmation to continue with selected action</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>G169</techniquesId>
+      <description>Aligning text on only one side</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>G170</techniquesId>
+      <description>Providing a control near the beginning of the Web page that turns off sounds that play automatically</description>  
+    </technique>
+    
+     <technique>
+      <techniquesId>G171</techniquesId>
+      <description>Playing sounds only on user request</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>G172</techniquesId>
+      <description>Providing a mechanism to remove full justification of text</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>G173</techniquesId>
+      <description>Providing a version of a movie with audio descriptions</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>G174</techniquesId>
+      <description>Providing a control with a sufficient contrast ratio that allows users to switch to a presentation that uses sufficient contrast</description>  
+    </technique>
+    
+     <technique>
+      <techniquesId>G175</techniquesId>
+      <description>Providing a multi color selection tool on the page for foreground and background colors</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>G176</techniquesId>
+      <description>Keeping the flashing area small enough</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>G177</techniquesId>
+      <description>Providing suggested correction text</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>G178</techniquesId>
+      <description>Providing controls on the Web page that allow users to incrementally change the size of all text on the page up to 200 percent</description>  
+    </technique>
+    
+     <technique>
+      <techniquesId>G179</techniquesId>
+      <description>Ensuring that there is no loss of content or functionality when the text resizes and text containers do not change their width</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>G180</techniquesId>
+      <description>Providing the user with a means to set the time limit to 10 times the default time limit</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>G181</techniquesId>
+      <description>Encoding user data as hidden or encrypted data in a re-authorization page</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>G182</techniquesId>
+      <description>Ensuring that additional visual cues are available when text color differences are used to convey information</description>  
+    </technique>
+    
+     <technique>
+      <techniquesId>G183</techniquesId>
+      <description>Using a contrast ratio of 3:1 with surrounding text and providing additional visual cues on focus for links or controls where color alone is used to identify them</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>G184</techniquesId>
+      <description>Providing text instructions at the beginning of a form or set of fields that describes the necessary input</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>G185</techniquesId>
+      <description>Linking to all of the pages on the site from the home page</description>  
+    </technique>
+    
+    
+    <technique>
+      <techniquesId>G186</techniquesId>
+      <description>Using a control in the Web page that stops moving, blinking, or auto-updating content</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>G187</techniquesId>
+      <description>Using a technology to include blinking content that can be turned off via the user agent</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>G188</techniquesId>
+      <description>Providing a button on the page to increase line spaces and paragraph spaces</description>  
+    </technique>
+    
+     <technique>
+      <techniquesId>G189</techniquesId>
+      <description>Providing a control near the beginning of the Web page that changes the link text</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>G190</techniquesId>
+      <description>Providing a link adjacent to or associated with a non-conforming object that links to a conforming alternate version</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>G191</techniquesId>
+      <description>Providing a link, button, or other mechanism that reloads the page without any blinking content</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>G192</techniquesId>
+      <description>Fully conforming to specifications</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>G193</techniquesId>
+      <description>Providing help by an assistant in the Web page</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>G194</techniquesId>
+      <description>Providing spell checking and suggestions for text input</description>  
+    </technique>
+    
+     <technique>
+      <techniquesId>G195</techniquesId>
+      <description>Using an author-supplied, highly visible focus indicator</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>G196</techniquesId>
+      <description>Using a text alternative on one item within a group of images that describes all items in the group</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>G197</techniquesId>
+      <description>Using labels, names, and text alternatives consistently for content that has the same functionality</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>G198</techniquesId>
+      <description>Providing a way for the user to turn the time limit off</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>G199</techniquesId>
+      <description>Providing success feedback when data is submitted successfully</description>  
+    </technique>
+    
+     <technique>
+      <techniquesId>G200</techniquesId>
+      <description>Opening new windows and tabs from a link only when necessary</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>G201</techniquesId>
+      <description>Giving users advanced warning when opening a new window</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>G202</techniquesId>
+      <description>Ensuring keyboard control for all functionality</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>G203</techniquesId>
+      <description>Using a static text alternative to describe a talking head video</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>G204</techniquesId>
+      <description>G204</description>  
+    </technique>
+    
+     <technique>
+      <techniquesId>G205</techniquesId>
+      <description>Including a text cue for colored form control labels</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>G206</techniquesId>
+      <description>Providing options within the content to switch to a layout that does not require the user to scroll horizontally to read a line of text</description>  
+    </technique>
+
+     <technique>
+      <techniquesId>G207</techniquesId>
+      <description>Ensuring that a contrast ratio of 3:1 is provided for icons</description>  
+    </technique>
+
+     <technique>
+      <techniquesId>G208</techniquesId>
+      <description>Including the text of the visible label as part of the accessible name</description>  
+    </technique>
+
+     <technique>
+      <techniquesId>G209</techniquesId>
+      <description>Provide sufficient contrast at the boundaries between adjoining colors</description>  
+    </technique>
+
+     <technique>
+      <techniquesId>G210</techniquesId>
+      <description>Ensuring that drag-and-drop actions can be cancelled</description>  
+    </technique>
+
+     <technique>
+      <techniquesId>G211</techniquesId>
+      <description>Matching the accessible name to the visible label</description>  
+    </technique>
+
+     <technique>
+      <techniquesId>G212</techniquesId>
+      <description>Using native controls to ensure functionality is triggered on the up-event.</description>  
+    </technique>
+
+     <technique>
+      <techniquesId>G213</techniquesId>
+      <description>Provide conventional controls and an application setting for motion activated input</description>  
+    </technique>
+
+     <technique>
+      <techniquesId>G214</techniquesId>
+      <description>Using a control to allow access to content in different orientations which is otherwise restricted</description>  
+    </technique>
+
+     <technique>
+      <techniquesId>G215</techniquesId>
+      <description>Providing controls to achieve the same result as path based or multipoint gestures</description>  
+    </technique>
+
+     <technique>
+      <techniquesId>G216</techniquesId>
+      <description>Providing single point activation for a control slider</description>  
+    </technique>
+
+     <technique>
+      <techniquesId>G217</techniquesId>
+      <description>Providing a mechanism to allow users to remap or turn off character key shortcuts</description>  
+    </technique>
+
+  </techniques>
+  
+
+  <!---  TECNICAS ARIA --> 
+  <techniques>
+    <type>ARIA</type> 
+    <typeId>ARIA</typeId> 
+    <uri>https://www.w3.org/WAI/WCAG21/Techniques/#aria</uri>
+    
+    <technique>
+      <techniquesId>ARIA1</techniquesId>
+      <description>Using the aria-describedby property to provide a descriptive label for input controls</description>     
+    </technique>
+    
+    <technique>
+      <techniquesId>ARIA2</techniquesId>
+      <description>Identifying required fields with the aria-required property</description>  
+    </technique>
+    
+    
+    <technique>
+      <techniquesId>ARIA4</techniquesId>
+      <description>Using a WAI-ARIA role to expose the role of a user interface component</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>ARIA5</techniquesId>
+      <description>Using WAI-ARIA state and property attributes to expose the state of a user interface component</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>ARIA6</techniquesId>
+      <description>Using aria-label to provide labels for objects</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>ARIA7</techniquesId>
+      <description>Using aria-labelledby for link purpose</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>ARIA8</techniquesId>
+      <description>Using aria-label for link purpose</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>ARIA9</techniquesId>
+      <description>Using aria-labelledby to concatenate a label from several text nodes</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>ARIA10</techniquesId>
+      <description>Using aria-labelledby to provide a text alternative for non-text content</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>ARIA11</techniquesId>
+      <description>Using ARIA landmarks to identify regions of a page</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>ARIA12</techniquesId>
+      <description>Using role=heading to identify headings</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>ARIA13</techniquesId>
+      <description>Using aria-labelledby to name regions and landmarks</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>ARIA14</techniquesId>
+      <description>Using aria-label to provide an invisible label where a visible label cannot be used</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>ARIA15</techniquesId>
+      <description>Using aria-describedby to provide descriptions of images</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>ARIA16</techniquesId>
+      <description>Using aria-labelledby to provide a name for user interface controls</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>ARIA17</techniquesId>
+      <description>Using grouping roles to identify related form controls</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>ARIA18</techniquesId>
+      <description>Using aria-alertdialog to Identify Errors</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>ARIA19</techniquesId>
+      <description>Using ARIA role=alert or Live Regions to Identify Errors</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>ARIA20</techniquesId>
+      <description>Using the region role to identify a region of the page</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>ARIA21</techniquesId>
+      <description>Using Aria-Invalid to Indicate An Error Field</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>ARIA22</techniquesId>
+      <description>Using role=status to present status messages</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>ARIA23</techniquesId>
+      <description>Using role=log to identify sequential information updates</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>ARIA24</techniquesId>
+      <description>Semantically identifying a font icon with role="img"</description>  
+    </technique>
+    
+  </techniques>
+
+
+  <!---  TECNICAS PARA HTML Y XHTML --> 
+  <techniques>
+    <type>HTML- XHTML</type>  
+    <typeId>H</typeId>
+    <uri>https://www.w3.org/WAI/WCAG21/Techniques/#html</uri>
+    
+    <technique>
+      <techniquesId>H2</techniquesId>
+      <description>Combining adjacent image and text links for the same resource</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>H4</techniquesId>
+      <description>Creating a logical tab order through links, form controls, and objects</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>H24</techniquesId>
+      <description>Providing text alternatives for the area elements of image maps </description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>H25</techniquesId>
+      <description>Providing a title using the title element</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>H28</techniquesId>
+      <description>Providing definitions for abbreviations by using the abbr element</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>H30</techniquesId>
+      <description>Providing link text that describes the purpose of a link for anchor elements</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>H32</techniquesId>
+      <description>Providing submit buttons</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>H33</techniquesId>
+      <description>Supplementing link text with the title attribute</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>H34</techniquesId>
+      <description>Using a Unicode right-to-left mark (RLM) or left-to-right mark (LRM) to mix text direction inline</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>H35</techniquesId>
+      <description>Providing text alternatives on applet elements </description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>H36</techniquesId>
+      <description>Using alt attributes on images used as submit buttons</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>H37</techniquesId>
+      <description>Using alt attributes on img elements</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>H39</techniquesId>
+      <description>Using caption elements to associate data table captions with data tables</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>H40</techniquesId>
+      <description>Using definition lists</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>H42</techniquesId>
+      <description>Using h1-h6 to identify headings</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>H43</techniquesId>
+      <description>Using id and headers attributes to associate data cells with header cells in data tables</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>H44</techniquesId>
+      <description>Using label elements to associate text labels with form controls</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>H45</techniquesId>
+      <description>Using longdesc</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>H46</techniquesId>
+      <description>Using noembed with embed</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>H48</techniquesId>
+      <description>Using ol, ul and dl for lists or groups of links</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>H49</techniquesId>
+      <description>Using semantic markup to mark emphasized or special text</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>H51</techniquesId>
+      <description>Using table markup to present tabular information</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>H53</techniquesId>
+      <description>Using the body of the object element</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>H54</techniquesId>
+      <description>Using the dfn element to identify the defining instance of a word</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>H56</techniquesId>
+      <description>Using the dir attribute on an inline element to resolve problems with nested directional runs</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>H57</techniquesId>
+      <description>Using language attributes on the html element </description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>H58</techniquesId>
+      <description>Using language attributes to identify changes in the human language </description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>H59</techniquesId>
+      <description>Using the link element and navigation tools</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>H60</techniquesId>
+      <description>Using the link element to link to a glossary</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>H62</techniquesId>
+      <description>Using the ruby element</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>H63</techniquesId>
+      <description>Using the scope attribute to associate header cells and data cells in data tables</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>H64</techniquesId>
+      <description>Using the title attribute of the frame and iframe elements</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>H65</techniquesId>
+      <description>Using the title attribute to identify form controls when the label element cannot be used</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>H67</techniquesId>
+      <description>Using null alt text and no title attribute on img elements for images that AT should ignore</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>H69</techniquesId>
+      <description>Providing heading elements at the beginning of each section of content</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>H70</techniquesId>
+      <description>Using frame elements to group blocks of repeated material</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>H71</techniquesId>
+      <description>Providing a description for groups of form controls using fieldset and legend elements </description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>H73</techniquesId>
+      <description>Using the summary attribute of the table element to give an overview of data tables</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>H74</techniquesId>
+      <description>Ensuring that opening and closing tags are used according to specification</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>H75</techniquesId>
+      <description>Ensuring that Web pages are well-formed</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>H76</techniquesId>
+      <description>Using meta refresh to create an instant client-side redirect</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>H77</techniquesId>
+      <description>Identifying the purpose of a link using link text combined with its enclosing list item</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>H78</techniquesId>
+      <description>Identifying the purpose of a link using link text combined with its enclosing paragraph</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>H79</techniquesId>
+      <description>Identifying the purpose of a link in a data table using the link text combined with its enclosing table cell and associated table header cells</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>H80</techniquesId>
+      <description>Identifying the purpose of a link using link text combined with the preceding heading element</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>H81</techniquesId>
+      <description>Identifying the purpose of a link in a nested list using link text combined with the parent list item under which the list is nested</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>H83</techniquesId>
+      <description>Using the target attribute to open a new window on user request and indicating this in link text</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>H84</techniquesId>
+      <description>Using a button with a select element to perform an action</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>H85</techniquesId>
+      <description>Using OPTGROUP to group OPTION elements inside a SELECT</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>H86</techniquesId>
+      <description>Providing text alternatives for ASCII art, emoticons, and leetspeak</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>H88</techniquesId>
+      <description>Using HTML according to spec</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>H89</techniquesId>
+      <description>Using the title attribute to provide context-sensitive help</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>H90</techniquesId>
+      <description>Indicating required form controls using label or legend</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>H91</techniquesId>
+      <description>Using HTML form controls and links</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>H93</techniquesId>
+      <description>Ensuring that id attributes are unique on a Web page</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>H94</techniquesId>
+      <description>Ensuring that elements do not contain duplicate attributes</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>H95</techniquesId>
+      <description>Using the track element to provide captions</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>H96</techniquesId>
+      <description>Using the track element to provide audio descriptions</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>H97</techniquesId>
+      <description>Grouping related links using the nav element</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>H98</techniquesId>
+      <description>Using HTML 5.2 autocomplete attributes</description>  
+    </technique>
+
+  </techniques>
+
+  <!---  TECNICAS PARA CSS --> 
+  <techniques>
+    <type>CSS</type>  
+    <typeId>C</typeId>
+     <uri>https://www.w3.org/WAI/WCAG21/Techniques/#css</uri>
+     
+    <technique>
+      <techniquesId>C6</techniquesId>
+      <description>Positioning content based on structural markup</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>C7</techniquesId>
+      <description>Using CSS to hide a portion of the link text </description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>C8</techniquesId>
+      <description>Using CSS letter-spacing to control spacing within a word</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>C9</techniquesId>
+      <description>Using CSS to include decorative images</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>C12</techniquesId>
+      <description>Using percent for font sizes</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>C13</techniquesId>
+      <description>Using named font sizes</description>  
+    </technique>
+    
+     <technique>
+      <techniquesId>C14</techniquesId>
+      <description>Using em units for font sizes</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>C15</techniquesId>
+      <description>Using CSS to change the presentation of a user interface component when it receives focus</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>C17</techniquesId>
+      <description>Scaling form elements which contain text</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>C18</techniquesId>
+      <description>Using CSS margin and padding rules instead of spacer images for layout design</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>C19</techniquesId>
+      <description>Specifying alignment either to the left OR right in CSS</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>C20</techniquesId>
+      <description>Using relative measurements to set column widths so that lines can average 80 characters or less when the browser is resized</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>C21</techniquesId>
+      <description>Specifying line spacing in CSS</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>C22</techniquesId>
+      <description>Using CSS to control visual presentation of text</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>C23</techniquesId>
+      <description>Specifying text and background colors of secondary content such as banners, features and navigation in CSS while not specifying text and background colors of the main content</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>C24</techniquesId>
+      <description>Using percentage values in CSS for container sizes</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>C25</techniquesId>
+      <description>Specifying borders and layout in CSS to delineate areas of a Web page while not specifying text and text-background colors</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>C27</techniquesId>
+      <description>Making the DOM order match the visual order</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>C28</techniquesId>
+      <description>Specifying the size of text containers using em units</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>C29</techniquesId>
+      <description>Using a style switcher to provide a conforming alternate version</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>C30</techniquesId>
+      <description>Using CSS to replace text with images of text and providing user interface controls to switch</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>C31</techniquesId>
+      <description>Using CSS Flexbox to reflow content</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>C32</techniquesId>
+      <description>Using media queries and grid CSS to reflow columns</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>C33</techniquesId>
+      <description>Allowing for Reflow with Long URLs and Strings of Text</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>C34</techniquesId>
+      <description>Using media queries to un-fixing sticky headers / footers</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>C35</techniquesId>
+      <description>Allowing for text spacing without wrapping</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>C36</techniquesId>
+      <description>Allowing for text spacing override</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>C37</techniquesId>
+      <description>Using CSS max-width and height to fit images</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>C38</techniquesId>
+      <description>Using CSS width, max-width and flexbox to fit labels and inputs</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>C39</techniquesId>
+      <description>Using the CSS reduce-motion query to prevent motion</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>C40</techniquesId>
+      <description>Creating a two-color focus indicator to ensure sufficient contrast with all components</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>C41</techniquesId>
+      <description>Creating a focus indicator within the component</description>  
+    </technique>
+    
+     
+
+  </techniques>
+
+    
+  <!---  TECNICAS PARA SCR--> 
+  <techniques>
+    <type>Client-side Scripting</type>  
+    <typeId>SCR</typeId>
+    <uri>https://www.w3.org/WAI/WCAG21/Techniques/#client-side-script</uri>
+    
+    <technique>
+      <techniquesId>SCR1</techniquesId>
+      <description>Allowing the user to extend the default time limit </description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>SCR2</techniquesId>
+      <description>Using redundant keyboard and mouse event handlers</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>SCR14</techniquesId>
+      <description>Using scripts to make nonessential alerts optional</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>SCR16</techniquesId>
+      <description>Providing a script that warns the user a time limit is about to expire</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>SCR18</techniquesId>
+      <description>Providing client-side validation and alert</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>SCR19</techniquesId>
+      <description>Using an onchange event on a select element without causing a change of context</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>SCR20</techniquesId>
+      <description>Using both keyboard and other device-specific functions</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>SCR21</techniquesId>
+      <description>Using functions of the Document Object Model (DOM) to add content to a page</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>SCR22</techniquesId>
+      <description>Using scripts to control blinking and stop it in five seconds or less</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>SCR24</techniquesId>
+      <description>Using progressive enhancement to open new windows on user request</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>SCR26</techniquesId>
+      <description>Inserting dynamic content into the Document Object Model immediately following its trigger element</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>SCR27</techniquesId>
+      <description>Reordering page sections using the Document Object Model</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>SCR28</techniquesId>
+      <description>Using an expandable and collapsible menu to bypass block of content</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>SCR29</techniquesId>
+      <description>Adding keyboard-accessible actions to static HTML elements</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>SCR30</techniquesId>
+      <description>Using scripts to change the link text</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>SCR31</techniquesId>
+      <description>Using script to change the background color or border of the element with focus</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>SCR32</techniquesId>
+      <description>Providing client-side validation and adding error text via the DOM</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>SCR33</techniquesId>
+      <description>Using script to scroll content, and providing a mechanism to pause it</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>SCR34</techniquesId>
+      <description>Calculating size and position in a way that scales with text size</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>SCR35</techniquesId>
+      <description>Making actions keyboard accessible by using the onclick event of anchors and buttons</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>SCR36</techniquesId>
+      <description>Providing a mechanism to allow users to display moving, scrolling, or auto-updating text in a static window or area</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>SCR37</techniquesId>
+      <description>Creating Custom Dialogs in a Device Independent Way</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>SCR38</techniquesId>
+      <description>Creating a conforming alternate version for a web page designed with progressive enhancement</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>SCR39</techniquesId>
+      <description>Making content on focus or hover hoverable, dismissible, and persistent</description>  
+    </technique>
+  
+  </techniques>
+
+
+  <!---  TECNICAS PARA SVR--> 
+
+  <techniques>
+    <type>Server-side Scripting</type>  
+    <typeId>SVR</typeId>
+    <uri>http://www.w3.org/TR/WCAhttps://www.w3.org/WAI/WCAG21/Techniques/#server-side-script</uri>
+    
+    <technique>
+      <techniquesId>SVR1</techniquesId>
+      <description>Implementing automatic redirects on the server side instead of on the client side</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>SVR2</techniquesId>
+      <description>Using .htaccess to ensure that the only way to access non-conforming content is from conforming content</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>SVR3</techniquesId>
+      <description>Using HTTP referer to ensure that the only way to access non-conforming content is from conforming content</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>SVR4</techniquesId>
+      <description>Allowing users to provide preferences for the display of conforming alternate versions</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>SVR5</techniquesId>
+      <description>Specifying the default language in the HTTP header</description>  
+    </technique>    
+
+  </techniques>
+
+  <!---  TECNICAS PARA Silverlight-->  
+  <techniques>
+    <type>Silverlight</type>  
+    <typeId>SL</typeId>
+    <uri>https://www.w3.org/WAI/WCAG21/Techniques/#silverlight</uri>  
+    
+    <technique>
+      <techniquesId>SL1</techniquesId>
+      <description>Accessing Alternate Audio Tracks in Silverlight Media</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>SL2</techniquesId>
+      <description>Changing The Visual Focus Indicator in Silverlight</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>SL3</techniquesId>
+      <description>Controlling Silverlight MediaElement Audio Volume</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>SL4</techniquesId>
+      <description>Declaring Discrete Silverlight Objects to Specify Language Parts in the HTML DOM</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>SL5</techniquesId>
+      <description>Defining a Focusable Image Class for Silverlight</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>SL6</techniquesId>
+      <description>Defining a UI Automation Peer for a Custom Silverlight Control</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>SL7</techniquesId>
+      <description>Designing a Focused Visual State for Custom Silverlight Controls</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>SL8</techniquesId>
+      <description>Displaying HelpText in Silverlight User Interfaces</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>SL9</techniquesId>
+      <description>Handling Key Events to Enable Keyboard Functionality in Silverlight</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>SL10</techniquesId>
+      <description>Implementing a Submit-Form Pattern in Silverlight</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>SL11</techniquesId>
+      <description>Pausing or Stopping A Decorative Silverlight Animation</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>SL12</techniquesId>
+      <description>Pausing, Stopping, or Playing Media in Silverlight MediaElements</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>SL13</techniquesId>
+      <description>Providing A Style Switcher To Switch To High Contrast</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>SL14</techniquesId>
+      <description>Providing Custom Control Key Handling for Keyboard Functionality in Silverlight</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>SL15</techniquesId>
+      <description>Providing Keyboard Shortcuts that Work Across the Entire Silverlight Application</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>SL16</techniquesId>
+      <description>Providing Script-Embedded Text Captions for MediaElement Content</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>SL17</techniquesId>
+      <description>Providing Static Alternative Content for Silverlight Media Playing in a MediaElement</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>SL18</techniquesId>
+      <description>Providing Text Equivalent for Nontext Silverlight Controls With AutomationProperties.Name</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>SL19</techniquesId>
+      <description>Providing User Instructions With AutomationProperties.HelpText in Silverlight</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>SL20</techniquesId>
+      <description>Relying on Silverlight AutomationPeer Behavior to Set AutomationProperties.Name</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>SL21</techniquesId>
+      <description>Replacing A Silverlight Timed Animation With a Nonanimated Element</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>SL22</techniquesId>
+      <description>Supporting Browser Zoom in Silverlight</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>SL23</techniquesId>
+      <description>Using A Style Switcher to Increase Font Size of Silverlight Text Elements</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>SL24</techniquesId>
+      <description>Using AutoPlay to Keep Silverlight Media from Playing Automatically</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>SL25</techniquesId>
+      <description>Using Controls and Programmatic Focus to Bypass Blocks of Content in Silverlight</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>SL26</techniquesId>
+      <description>Using LabeledBy to Associate Labels and Targets in Silverlight</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>SL27</techniquesId>
+      <description>Using Language/Culture Properties as Exposed by Silverlight Applications and Assistive Technologies</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>SL28</techniquesId>
+      <description>Using Separate Text-Format Text Captions for MediaElement Content</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>SL29</techniquesId>
+      <description>Using Silverlight "List" Controls to Define Blocks that can be Bypassed</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>SL30</techniquesId>
+      <description>Using Silverlight Control Compositing and AutomationProperties.Name</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>SL31</techniquesId>
+      <description>Using Silverlight Font Properties to Control Text Presentation</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>SL32</techniquesId>
+      <description>Using Silverlight Text Elements for Appropriate Accessibility Role</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>SL33</techniquesId>
+      <description>Using Well-Formed XAML to Define a Silverlight User Interface</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>SL34</techniquesId>
+      <description>Using the Silverlight Default Tab Sequence and Altering Tab Sequences With Properties</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>SL35</techniquesId>
+      <description>Using the Validation and ValidationSummary APIs to Implement Client Side Forms Validation in Silverlight</description>  
+    </technique>
+
+  </techniques>
+
+  <!---  TECNICAS PARA TEXTO PLANO --> 
+  <techniques>
+    <type>Plain Text</type>  
+    <typeId>T</typeId>
+    <uri>https://www.w3.org/WAI/WCAG21/Techniques/#text</uri>
+    <technique>
+      <techniquesId>T1</techniquesId>
+      <description>Using standard text formatting conventions for paragraphs</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>T2</techniquesId>
+      <description>Using standard text formatting conventions for lists</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>T3</techniquesId>
+      <description>Using standard text formatting conventions for headings</description>  
+    </technique>   
+
+  </techniques>
+
+
+  <!---  FALLA DE CRITERIO PARA WCAG2 --> 
+   <techniques>
+   
+    <type>Common Failures</type>  
+    <typeId>F</typeId>
+    <uri>https://www.w3.org/WAI/WCAG21/Techniques/#failures</uri>  
+    
+    <technique>
+      <techniquesId>F1</techniquesId>
+      <description>Failure of Success Criterion 1.3.2 due to changing the meaning of content by positioning information with CSS</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>F2</techniquesId>
+      <description>Failure of Success Criterion 1.3.1 due to using changes in text presentation to convey information without using the appropriate markup or text</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>F3</techniquesId>
+      <description>Failure of Success Criterion 1.1.1 due to using CSS to include images that convey important information</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>F4</techniquesId>
+      <description>Failure of Success Criterion 2.2.2 due to using text-decoration:blink without a mechanism to stop it in less than five seconds</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>F7</techniquesId>
+      <description>Failure of Success Criterion 2.2.2 due to an object or applet, such as Java or Flash, that has blinking content without a mechanism to pause the content that blinks for more than five seconds</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>F8</techniquesId>
+      <description>Failure of Success Criterion 1.2.2 due to captions omitting some dialogue or important sound effects</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>F9</techniquesId>
+      <description>Failure of Success Criterion 3.2.5 due to changing the context when the user removes focus from a form element</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>F10</techniquesId>
+      <description>Failure of Success Criterion 2.1.2 and Conformance Requirement 5 due to combining multiple content formats in a way that traps users inside one format type</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>F12</techniquesId>
+      <description>Failure of Success Criterion 2.2.5 due to having a session time limit without a mechanism for saving user's input and re-establishing that information upon re-authentication</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>F13</techniquesId>
+      <description>Failure of Success Criterion 1.1.1 and 1.4.1 due to having a text alternative that does not include information that is conveyed by color differences in the image</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>F14</techniquesId>
+      <description>Failure of Success Criterion 1.3.3 due to identifying content only by its shape or location</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>F15</techniquesId>
+      <description>Failure of Success Criterion 4.1.2 due to implementing custom controls that do not use an accessibility API for the technology, or do so incompletely</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>F16</techniquesId>
+      <description>Failure of Success Criterion 2.2.2 due to including scrolling content where movement is not essential to the activity without also including a mechanism to pause and restart the content</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>F19</techniquesId>
+      <description>Failure of Conformance Requirement 1 due to not providing a method for the user to find the alternative conforming version of a non-conforming Web page</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>F20</techniquesId>
+      <description>Failure of Success Criterion 1.1.1 and 4.1.2 due to not updating text alternatives when changes to non-text content occur</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>F22</techniquesId>
+      <description>Failure of Success Criterion 3.2.5 due to opening windows that are not requested by the user</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>F23</techniquesId>
+      <description>Failure of 1.4.2 due to playing a sound longer than 3 seconds where there is no mechanism to turn it off</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>F24</techniquesId>
+      <description>Failure of Success Criterion 1.4.3, 1.4.6 and 1.4.8 due to specifying foreground colors without specifying background colors or vice versa</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>F25</techniquesId>
+      <description>Failure of Success Criterion 2.4.2 due to the title of a Web page not identifying the contents</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>F26</techniquesId>
+      <description>Failure of Success Criterion 1.3.3 due to using a graphical symbol alone to convey information</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>F30</techniquesId>
+      <description>Failure of Success Criterion 1.1.1 and 1.2.1 due to using text alternatives that are not alternatives (e.g., filenames or placeholder text)</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>F31</techniquesId>
+      <description>Failure of Success Criterion 3.2.4 due to using two different labels for the same function on different Web pages within a set of Web pages </description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>F32</techniquesId>
+      <description>Failure of Success Criterion 1.3.2 due to using white space characters to control spacing within a word</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>F33</techniquesId>
+      <description>Failure of Success Criterion 1.3.1 and 1.3.2 due to using white space characters to create multiple columns in plain text content</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>F34</techniquesId>
+      <description>Failure of Success Criterion 1.3.1 and 1.3.2 due to using white space characters to format tables in plain text content</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>F36</techniquesId>
+      <description>Failure of Success Criterion 3.2.2 due to automatically submitting a form and presenting new content without prior warning when the last field in the form is given a value</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>F37</techniquesId>
+      <description>Failure of Success Criterion 3.2.2 due to launching a new window without prior warning when the selection of a radio button, check box or select list is changed</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>F38</techniquesId>
+      <description>Failure of Success Criterion 1.1.1 due to not marking up decorative images in HTML in a way that allows assistive technology to ignore them</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>F39</techniquesId>
+      <description>Failure of Success Criterion 1.1.1 due to providing a text alternative that is not null (e.g., alt="spacer" or alt="image") for images that should be ignored by assistive technology</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>F40</techniquesId>
+      <description>Failure of Success Criterion 2.2.1 and 2.2.4 due to using meta redirect with a time limit </description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>F41</techniquesId>
+      <description>Failure of Success Criterion 2.2.1, 2.2.4, and 3.2.5 due to using meta refresh with a time-out</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>F42</techniquesId>
+      <description>Failure of Success Criterion 1.3.1 and 2.1.1 due to using scripting events to emulate links in a way that is not programmatically determinable</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>F43</techniquesId>
+      <description>Failure of Success Criterion 1.3.1 due to using structural markup in a way that does not represent relationships in the content</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>F44</techniquesId>
+      <description>Failure of Success Criterion 2.4.3 due to using tabindex to create a tab order that does not preserve meaning and operability</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>F46</techniquesId>
+      <description>Failure of Success Criterion 1.3.1 due to using th elements, caption elements, or non-empty summary attributes in layout tables</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>F47</techniquesId>
+      <description>Failure of Success Criterion 2.2.2 due to using the blink element</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>F48</techniquesId>
+      <description>Failure of Success Criterion 1.3.1 due to using the pre element to markup tabular information</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>F49</techniquesId>
+      <description>Failure of Success Criterion 1.3.2 due to using an HTML layout table that does not make sense when linearized </description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>F50</techniquesId>
+      <description>Failure of Success Criterion 2.2.2 due to a script that causes a blink effect without a mechanism to stop the blinking at 5 seconds or less</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>F52</techniquesId>
+      <description>Failure of Success Criterion 3.2.1 and 3.2.5 due to opening a new window as soon as a new page is loaded</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>F54</techniquesId>
+      <description>Failure of Success Criterion 2.1.1 due to using only pointing-device-specific event handlers (including gesture) for a function</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>F55</techniquesId>
+      <description>Failure of Success Criteria 2.1.1, 2.4.7, and 3.2.1 due to using script to remove focus when focus is received</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>F58</techniquesId>
+      <description>Failure of Success Criterion 2.2.1 due to using server-side techniques to automatically redirect pages after a time-out</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>F59</techniquesId>
+      <description>Failure of Success Criterion 4.1.2 due to using script to make div or span a user interface control in HTML without providing a role for the control</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>F60</techniquesId>
+      <description>Failure of Success Criterion 3.2.5 due to launching a new window when a user enters text into an input field</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>F61</techniquesId>
+      <description>Failure of Success Criterion 3.2.5 due to complete change of main content through an automatic update that the user cannot disable from within the content</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>F63</techniquesId>
+      <description>Failure of Success Criterion 2.4.4 due to providing link context only in content that is not related to the link</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>F65</techniquesId>
+      <description>Failure of Success Criterion 1.1.1 due to omitting the alt attribute or text alternative on img elements, area elements, and input elements of type "image"</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>F66</techniquesId>
+      <description>Failure of Success Criterion 3.2.3 due to presenting navigation links in a different relative order on different pages</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>F67</techniquesId>
+      <description>Failure of Success Criterion 1.1.1 and 1.2.1 due to providing long descriptions for non-text content that does not serve the same purpose or does not present the same information</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>F68</techniquesId>
+      <description>Failure of Success Criterion 1.3.1 and 4.1.2 due to the association of label and user interface controls not being programmatically determined</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>F69</techniquesId>
+      <description>Failure of Success Criterion 1.4.4 when resizing visually rendered text up to 200 percent causes the text, image or controls to be clipped, truncated or obscured</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>F70</techniquesId>
+      <description>Failure of Success Criterion 4.1.1 due to incorrect use of start and end tags or attribute markup</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>F71</techniquesId>
+      <description>Failure of Success Criterion 1.1.1 due to using text look-alikes to represent text without providing a text alternative</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>F72</techniquesId>
+      <description>Failure of Success Criterion 1.1.1 due to using ASCII art without providing a text alternative</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>F73</techniquesId>
+      <description>Failure of Success Criterion 1.4.1 due to creating links that are not visually evident without color vision</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>F74</techniquesId>
+      <description>Failure of Success Criterion 1.2.2 and 1.2.8 due to not labeling a synchronized media alternative to text as an alternative</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>F75</techniquesId>
+      <description>Failure of Success Criterion 1.2.2 by providing synchronized media without captions when the synchronized media presents more information than is presented on the page</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>F77</techniquesId>
+      <description>Failure of Success Criterion 4.1.1 due to duplicate values of type ID</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>F78</techniquesId>
+      <description>Failure of Success Criterion 2.4.7 due to styling element outlines and borders in a way that removes or renders non-visible the visual focus indicator</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>F79</techniquesId>
+      <description>Failure of Success Criterion 4.1.2 due to the focus state of a user interface component not being programmatically determinable or no notification of change of focus state available</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>F80</techniquesId>
+      <description>Failure of Success Criterion 1.4.4 when text-based form controls do not resize when visually rendered text is resized up to 200%</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>F81</techniquesId>
+      <description>Failure of Success Criterion 1.4.1 due to identifying required or error fields using color differences only</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>F82</techniquesId>
+      <description>Failure of Success Criterion 3.3.2 by visually formatting a set of phone number fields but not including a text label</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>F83</techniquesId>
+      <description>Failure of Success Criterion 1.4.3 and 1.4.6 due to using background images that do not provide sufficient contrast with foreground text (or images of text)</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>F84</techniquesId>
+      <description>Failure of Success Criterion 2.4.9 due to using a non-specific link such as "click here" or "more" without a mechanism to change the link text to specific text.</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>F85</techniquesId>
+      <description>Failure of Success Criterion 2.4.3 due to using dialogs or menus that are not adjacent to their trigger control in the sequential navigation order</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>F86</techniquesId>
+      <description>Failure of Success Criterion 4.1.2 due to not providing names for each part of a multi-part form field, such as a US telephone number</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>F87</techniquesId>
+      <description>Failure of Success Criterion 1.3.1 due to inserting non-decorative content by using :before and :after pseudo-elements and the 'content' property in CSS</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>F88</techniquesId>
+      <description>Failure of Success Criterion 1.4.8 due to using text that is justified (aligned to both the left and the right margins)</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>F89</techniquesId>
+      <description>Failure of Success Criteria 2.4.4, 2.4.9 and 4.1.2 due to using null alt on an image where the image is the only content in a link</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>F90</techniquesId>
+      <description>Failure of Success Criterion 1.3.1 for incorrectly associating table headers and content via the headers and id attributes</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>F91</techniquesId>
+      <description>Failure of Success Criterion 1.3.1 for not correctly marking up table headers</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>F92</techniquesId>
+      <description>Failure of Success Criterion 1.3.1 due to the use of role presentation on content which conveys semantic information</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>F93</techniquesId>
+      <description>Failure of Success Criterion 1.4.2 for absence of a way to pause or stop an HTML5 media element that autoplays</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>F94</techniquesId>
+      <description> Failure of Success Criterion 1.4.4 due to incorrect use of viewport units to resize text</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>F95</techniquesId>
+      <description>Failure of Success Criterion 1.4.13 due to content shown on hover not being hoverable</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>F96</techniquesId>
+      <description>Failure due to the accessible name not containing the visible label text</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>F97</techniquesId>
+      <description>Failure due to locking the orientation to landscape or portrait view</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>F98</techniquesId>
+      <description> Failure due to interactions being limited to touch-only on touchscreen devices</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>F99</techniquesId>
+      <description>Failure of Success Criterion 2.1.4 due to implementing character key shortcuts that cannot be turned off or remapped</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>F100</techniquesId>
+      <description>Failure of Success Criterion 1.3.4 due to showing a message asking to reorient device</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>F101</techniquesId>
+      <description>Failure of Success Criterion 2.5.2 due to activating a control on the down-event</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>F102</techniquesId>
+      <description>Failure of Success Criterion 1.4.10 due to content disappearing and not being available when content has reflowed</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>F103</techniquesId>
+      <description>Failure of Success Criterion 4.1.3 due to providing status messages that cannot be programmatically determined through role or properties</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>F104</techniquesId>
+      <description>Failure of Success Criterion 1.4.12 due to clipped or overlapped content when text spacing is adjusted</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>105</techniquesId>
+      <description>Failure of Success Criterion 2.5.1 due to providing functionality via a path-based gesture without simple pointer alternative</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>F106</techniquesId>
+      <description>Failure due to inability to deactivate motion actuation</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>F107</techniquesId>
+      <description>Failure of Success Criterion 1.3.5 due to incorrect autocomplete attribute values</description>  
+    </technique>
+
+   
+  </techniques>
+  
+  <!---  TECNICAS PARA Silverlight --> 
+  <techniques>
+    <type>SMIL</type>  
+    <typeId>SM</typeId>
+    <uri>https://www.w3.org/WAI/WCAG21/Techniques/#silverlight</uri>
+    <technique>
+      <techniquesId>SM1</techniquesId>
+      <description>Adding extended audio description in SMIL 1.0</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>SM2</techniquesId>
+      <description>Adding extended audio description in SMIL 2.0</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>SM6</techniquesId>
+      <description>Providing audio description in SMIL 1.0</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>SM7</techniquesId>
+      <description>Providing audio description in SMIL 2.0</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>SM11</techniquesId>
+      <description>Providing captions through synchronized text streams in SMIL 1.0</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>SM12</techniquesId>
+      <description>Providing captions through synchronized text streams in SMIL 2.0</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>SM13</techniquesId>
+      <description>Providing sign language interpretation through synchronized video streams in SMIL 1.0</description>  
+    </technique>
+    
+    <technique>
+      <techniquesId>SM14</techniquesId>
+      <description>Providing sign language interpretation through synchronized video streams in SMIL 2.0</description>  
+    </technique>    
+
+  </techniques>
+
+  <techniques>
+  <type>PDF</type>  
+    <typeId>PDF</typeId>
+    <uri>https://www.w3.org/WAI/WCAG21/Techniques/#pdf</uri>
+
+    <technique>
+      <techniquesId>PDF1</techniquesId>
+      <description>Applying text alternatives to images with the Alt entry in PDF documents</description>  
+    </technique>
+
+     <technique>
+      <techniquesId>PDF2</techniquesId>
+      <description>Creating bookmarks in PDF documents</description>  
+    </technique>
+
+     <technique>
+      <techniquesId>PDF3</techniquesId>
+      <description>Ensuring correct tab and reading order in PDF documents</description>  
+    </technique>
+
+     <technique>
+      <techniquesId>PDF4</techniquesId>
+      <description>Hiding decorative images with the Artifact tag in PDF documents</description>  
+    </technique>
+
+     <technique>
+      <techniquesId>PDF5</techniquesId>
+      <description>Indicating required form controls in PDF forms</description>  
+    </technique>
+
+     <technique>
+      <techniquesId>PDF6</techniquesId>
+      <description>Using table elements for table markup in PDF Documents</description>  
+    </technique>
+
+     <technique>
+      <techniquesId>PDF7</techniquesId>
+      <description>Performing OCR on a scanned PDF document to provide actual text</description>  
+    </technique>
+
+     <technique>
+      <techniquesId>PDF8</techniquesId>
+      <description>Providing definitions for abbreviations via an E entry for a structure element</description>  
+    </technique>
+
+     <technique>
+      <techniquesId>PDF9</techniquesId>
+      <description>Providing headings by marking content with heading tags in PDF documents</description>  
+    </technique>
+
+     <technique>
+      <techniquesId>PDF10</techniquesId>
+      <description>Providing labels for interactive form controls in PDF documents</description>  
+    </technique>
+
+     <technique>
+      <techniquesId>PDF11</techniquesId>
+      <description>Providing links and link text using the Link annotation and the /Link structure element in PDF documents</description>  
+    </technique>
+
+     <technique>
+      <techniquesId>PDF12</techniquesId>
+      <description>Providing name, role, value information for form fields in PDF documents</description>  
+    </technique>
+
+     <technique>
+      <techniquesId>PDF13</techniquesId>
+      <description>Providing replacement text using the /Alt entry for links in PDF documents</description>  
+    </technique>
+
+     <technique>
+      <techniquesId>PDF14</techniquesId>
+      <description>Providing running headers and footers in PDF documents</description>  
+    </technique>
+
+     <technique>
+      <techniquesId>PDF15</techniquesId>
+      <description>Providing submit buttons with the submit-form action in PDF forms</description>  
+    </technique>
+
+     <technique>
+      <techniquesId>PDF16</techniquesId>
+      <description>Setting the default language using the /Lang entry in the document catalog of a PDF document</description>  
+    </technique>
+
+     <technique>
+      <techniquesId>PDF17</techniquesId>
+      <description>Specifying consistent page numbering for PDF documents</description>  
+    </technique>
+
+     <technique>
+      <techniquesId>PDF18</techniquesId>
+      <description>Specifying the document title using the Title entry in the document information dictionary of a PDF document</description>  
+    </technique>
+
+     <technique>
+      <techniquesId>PDF19</techniquesId>
+      <description>Specifying the language for a passage or phrase with the Lang entry in PDF documents</description>  
+    </technique>
+
+     <technique>
+      <techniquesId>PDF20</techniquesId>
+      <description>Using Adobe Acrobat Pro's Table Editor to repair mistagged tables</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>PDF21</techniquesId>
+      <description>Using List tags for lists in PDF documents</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>PDF22</techniquesId>
+      <description>Indicating when user input falls outside the required format or values in PDF forms</description>  
+    </technique>
+
+    <technique>
+      <techniquesId>PDF23</techniquesId>
+      <description>Providing interactive form controls in PDF documents</description>  
+    </technique>
+
+
+
+  </techniques>
+
+
+
+
+</wcag2techniques>
+
+ 
+ 

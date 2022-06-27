@@ -1,0 +1,2309 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<guidelines>
+  
+<!---  guias de accesibilidad 2.1-->  
+  <name>Web Content Accessibility Guidelines (WCAG), Version 2.1</name>
+  <level>WCAG21</level>
+
+  <!---  CRITERIO DE EXITO 1.1.1 -->  
+  <successCriteria>
+    <number>1.1.1</number>
+    <title>Contenido no textual</title>
+    <description>Todo contenido no textual que se presenta al usuario tiene una alternativa textual que cumple el mismo propósito, excepto en las situaciones enumeradas a continuación.</description>
+    <uri>https://www.w3.org/WAI/WCAG21/quickref/#non-text-content</uri>
+    <level>A</level>
+    <techniques scope="suficiente">
+      
+      <techniquesId>ARIA6</techniquesId>
+      <techniquesId>ARIA9</techniquesId>
+      <techniquesId>ARIA10</techniquesId>
+      <techniquesId>ARIA15</techniquesId>
+      <techniquesId>H2</techniquesId>
+      <techniquesId>H24</techniquesId>
+      <techniquesId>H30</techniquesId>
+      <techniquesId>H35</techniquesId>
+      <techniquesId>H36</techniquesId>
+      <techniquesId>H37</techniquesId>
+      <techniquesId>H44</techniquesId>
+      <techniquesId>H45</techniquesId>
+      <techniquesId>H53</techniquesId>
+      <techniquesId>H65</techniquesId>
+      <techniquesId>H67</techniquesId>
+      <techniquesId>H86</techniquesId>
+      <techniquesId>PDF1</techniquesId>
+      <techniquesId>PDF4</techniquesId>
+      <techniquesId>G68</techniquesId>
+      <techniquesId>G73</techniquesId>
+      <techniquesId>G74</techniquesId>
+      <techniquesId>G82</techniquesId>
+      <techniquesId>G92</techniquesId>
+      <techniquesId>G94</techniquesId>
+      <techniquesId>G95</techniquesId>
+      <techniquesId>G100</techniquesId>
+      <techniquesId>G143</techniquesId>
+      <techniquesId>G196</techniquesId>
+      <techniquesId>C9</techniquesId>
+      <techniquesId>SL5</techniquesId>
+      <techniquesId>SL8</techniquesId>
+      <techniquesId>SL18</techniquesId>
+      <techniquesId>SL26</techniquesId>
+      <techniquesId>SL30</techniquesId>
+      
+    </techniques>
+
+    <techniques scope="sugerencia">
+      <techniquesId>H46</techniquesId>
+      <techniquesId>C18</techniquesId>
+      <techniquesId>SL19</techniquesId>
+
+    </techniques>
+      
+
+
+    <techniques scope="falla">
+
+      <techniquesId>F3</techniquesId>
+      <techniquesId>F13</techniquesId>
+      <techniquesId>F20</techniquesId>
+      <techniquesId>F30</techniquesId>
+      <techniquesId>F38</techniquesId>
+      <techniquesId>F39</techniquesId>
+      <techniquesId>F65</techniquesId>
+      <techniquesId>F67</techniquesId>
+      <techniquesId>F71</techniquesId>
+      <techniquesId>72</techniquesId>
+    </techniques>
+
+  </successCriteria>
+  
+<!---  CRITERIO DE EXITO 1.2.1 -->  
+  <successCriteria>
+    <number>1.2.1</number>
+    <title>Sólo audio y sólo vídeo (grabado)</title>
+    <description>Para contenido sólo audio grabado y contenido sólo vídeo grabado, se cumple lo siguiente, excepto cuando el audio o el vídeo es un contenido multimedia alternativo al texto y está claramente identificado como tal.</description>
+    <uri>https://www.w3.org/WAI/WCAG21/quickref/#audio-only-and-video-only-prerecorded</uri>
+    <level>A</level>
+
+
+    <techniques scope="suficiente">
+      <techniquesId>G158</techniquesId>
+      <techniquesId>G159</techniquesId>
+      <techniquesId>G166</techniquesId>
+      <techniquesId>SL17</techniquesId>
+      
+    </techniques>
+
+    <techniques scope="sugerencia">
+      <techniquesId>H96</techniquesId>
+      <techniquesId></techniquesId>
+      <techniquesId></techniquesId>
+      <techniquesId></techniquesId>
+      <techniquesId></techniquesId>
+      <techniquesId></techniquesId>
+      <techniquesId></techniquesId>
+      <techniquesId></techniquesId>
+      <techniquesId></techniquesId>
+
+    </techniques>
+
+
+    <techniques scope="falla">
+      <techniquesId>F30</techniquesId>
+      <techniquesId>F67</techniquesId>
+
+    </techniques>
+
+    
+  </successCriteria>
+  
+  <!---  CRITERIO DE EXITO 1.2.2 -->  
+  <successCriteria>
+    <number>1.2.2</number>
+    <title>Subtítulos (grabados)</title>
+    <description>Se proporcionan subtítulos para el contenido de audio grabado dentro de contenido multimedia sincronizado, excepto cuando la presentación es un contenido multimedia alternativo al texto y está claramente identificado como tal. </description>
+    <uri>https://www.w3.org/WAI/WCAG21/quickref/#captions-prerecorded</uri>
+    <level>A</level>
+
+
+    <techniques scope="suficiente">
+      <techniquesId>G87</techniquesId>
+      <techniquesId>G93</techniquesId>
+      <techniquesId>SM11</techniquesId>
+      <techniquesId>SM12</techniquesId>
+      <techniquesId>H95</techniquesId>
+      <techniquesId>SL16</techniquesId>
+      <techniquesId>SL28</techniquesId>
+    </techniques>
+
+    <techniques scope="sugerencia">
+    
+    </techniques>
+
+
+    <techniques scope="falla">
+      <techniquesId>F8</techniquesId>
+      <techniquesId>F74</techniquesId>
+      <techniquesId>F75</techniquesId>
+    </techniques>
+
+ </successCriteria>
+  
+  <!---  CRITERIO DE EXITO 1.2.3 -->  
+  <successCriteria>
+    <number> 1.2.3</number>
+    <title>Audiodescripción o Medio Alternativo (grabado)</title>
+    <description>Se proporciona una alternativa para los medios tempodependientes o una audiodescripción para el contenido de vídeo grabado en los multimedia sincronizados, excepto cuando ese contenido es un contenido multimedia alternativo al texto y está claramente identificado como tal. </description>
+    <uri>https://www.w3.org/WAI/WCAG21/quickref/#audio-description-or-media-alternative-prerecorded</uri>
+    <level>A</level>
+
+    <techniques scope="suficiente">
+      <techniquesId>G8</techniquesId>
+      <techniquesId>G58</techniquesId>
+      <techniquesId>G69</techniquesId>
+      <techniquesId>G78</techniquesId>
+      <techniquesId>G173</techniquesId>
+      <techniquesId>G203</techniquesId>
+      <techniquesId>SL1</techniquesId>
+      <techniquesId>SL17</techniquesId>
+      <techniquesId>H53</techniquesId>
+      <techniquesId>SM1</techniquesId>
+      <techniquesId>SM2</techniquesId>
+      <techniquesId>SM6</techniquesId>
+      <techniquesId>SM7</techniquesId>
+
+    </techniques>
+
+    <techniques scope="sugerencia">
+      <techniquesId>H96</techniquesId>
+    </techniques>
+
+
+    <techniques scope="falla">
+
+    </techniques>
+
+
+    
+  </successCriteria>
+  
+<!---  CRITERIO DE EXITO 1.2.4 -->    
+  
+  <successCriteria>
+    <number>1.2.4</number>
+    <title>Subtítulos (en directo)</title>
+    <description>Se proporcionan subtítulos para todo el contenido de audio en directo de los multimedia sincronizados. </description>
+    <uri>https://www.w3.org/WAI/WCAG21/quickref/#captions-live</uri>
+    <level>AA</level>
+    <techniques scope="suficiente">
+      <techniquesId>G9</techniquesId>
+      <techniquesId>G87</techniquesId>
+      <techniquesId>G93</techniquesId>
+      <techniquesId>SM11</techniquesId>
+      <techniquesId>SM12</techniquesId>
+    </techniques>
+
+    <techniques scope="sugerencia">
+
+    </techniques>
+
+
+    <techniques scope="falla">
+
+    </techniques>
+  
+  </successCriteria>
+  
+  <!---  CRITERIO DE EXITO 1.2.5 -->  
+  <successCriteria>
+    <number>1.2.5</number>
+    <title>Audiodescripción (grabado)</title>
+    <description>Se proporciona una audiodescripción para todo el contenido de vídeo grabado dentro de contenido multimedia sincronizado.</description>
+    <uri>https://www.w3.org/WAI/WCAG21/quickref/#audio-description-prerecorded</uri>
+    <level>AA</level>
+
+    <techniques scope="suficiente">
+      <techniquesId>G8</techniquesId>
+      <techniquesId>G78</techniquesId>
+      <techniquesId>G173</techniquesId>
+      <techniquesId>G203</techniquesId>
+      <techniquesId>SL1</techniquesId>
+      <techniquesId>SM1</techniquesId>
+      <techniquesId>SM2</techniquesId>
+      <techniquesId>SM6</techniquesId>
+      <techniquesId>SM7</techniquesId>
+    </techniques>
+
+    <techniques scope="sugerencia">
+      <techniquesId>H96</techniquesId>
+    </techniques>
+
+
+    <techniques scope="falla">
+
+    </techniques>
+   
+  </successCriteria>
+
+<!---  CRITERIO DE EXITO 1.2.6 -->  
+  <successCriteria>
+    <number>1.2.6</number>
+    <title>Lengua de señas (grabado)</title>
+    <description>Se proporciona una interpretación en lengua de señas para todo el contenido de audio grabado dentro de contenido multimedia sincronizado.</description>
+    <uri>https://www.w3.org/WAI/WCAG21/quickref/#sign-language-prerecorded</uri>
+    <level>AAA</level>
+    <techniques scope="suficiente">
+      <techniquesId>G54</techniquesId>
+      <techniquesId>G81</techniquesId>
+      <techniquesId>SM13</techniquesId>
+      <techniquesId>SM14</techniquesId>
+    </techniques>
+
+    <techniques scope="sugerencia">
+
+    </techniques>
+
+
+    <techniques scope="falla">
+
+    </techniques>
+   
+  </successCriteria>
+
+  <!---  CRITERIO DE EXITO 1.2.7 -->  
+  <successCriteria>
+    <number>1.2.7</number>
+    <title>Audiodescripción ampliada (grabada)</title>
+    <description>Cuando las pausas en el audio de primer plano son insuficientes para permitir que la audiodescripción comunique el significado del vídeo, se proporciona una audiodescripción ampliada para todos los contenidos de vídeo grabado dentro de contenido multimedia sincronizado.</description>
+    <uri>https://www.w3.org/WAI/WCAG21/quickref/#extended-audio-description-prerecorded</uri>
+    <level>AAA</level>
+    <techniques scope="suficiente">
+      <techniquesId>G8</techniquesId>
+      <techniquesId>SM1</techniquesId>
+      <techniquesId>SM2</techniquesId>
+    </techniques>
+
+    <techniques scope="sugerencia">
+      <techniquesId>H96</techniquesId>
+    </techniques>
+
+
+    <techniques scope="falla">
+
+    </techniques>
+
+   
+  </successCriteria>
+  
+  
+  <!---  CRITERIO DE EXITO 1.2.8 -->  
+  <successCriteria>
+    <number>1.2.8</number>
+    <title>Medio alternativo (grabado)</title>
+    <description>Se proporciona una alternativa para los medios tempodependientes, tanto para todos los contenidos multimedia sincronizados grabados como para todos los medios de sólo vídeo grabado.</description>
+    <uri>https://www.w3.org/WAI/WCAG21/quickref/#media-alternative-prerecorded</uri>
+    <level>AAA</level>
+    <techniques scope="suficiente">
+      <techniquesId>G58</techniquesId>
+      <techniquesId>G69</techniquesId>
+      <techniquesId>G159</techniquesId>
+      <techniquesId>H53</techniquesId>
+      <techniquesId>SL17</techniquesId>
+    </techniques>
+
+    <techniques scope="sugerencia">
+      <techniquesId>H46</techniquesId>
+    </techniques>
+
+
+    <techniques scope="falla">
+      <techniquesId>F74</techniquesId>
+    </techniques>
+    
+  </successCriteria>
+
+<!---  CRITERIO DE EXITO 1.2.9 -->  
+  <successCriteria>
+    <number>1.2.9</number>
+    <title>Sólo audio (en directo)</title>
+    <description>Se proporciona una alternativa para los medios tempodependientes que presenta información equivalente para el contenido de sólo audio en directo.</description>
+    <uri>https://www.w3.org/WAI/WCAG21/quickref/#audio-only-live</uri>
+    <level>AAA</level>
+    <techniques scope="suficiente">
+      <techniquesId>G150</techniquesId>
+      <techniquesId>G151</techniquesId>
+      <techniquesId>G157</techniquesId>
+    </techniques>
+
+    <techniques scope="sugerencia">
+
+    </techniques>
+
+
+    <techniques scope="falla">
+
+    </techniques>
+  
+  </successCriteria>
+  
+  <!---  CRITERIO DE EXITO  1.3.1 -->  
+  <successCriteria>
+    <number> 1.3.1</number>
+    <title>Información y relaciones</title>
+    <description>La información, estructura y relaciones comunicadas a través de la presentación pueden ser determinadas por software o están disponibles como texto.</description>
+    <uri>https://www.w3.org/WAI/WCAG21/quickref/#info-and-relationships</uri>
+    <level>A</level>
+    <techniques scope="suficiente">
+      <techniquesId>ARIA11</techniquesId>
+      <techniquesId>ARIA12</techniquesId>
+      <techniquesId>ARIA13</techniquesId>
+      <techniquesId>ARIA16</techniquesId>
+      <techniquesId>ARIA17</techniquesId>
+      <techniquesId>ARIA20</techniquesId>
+      <techniquesId>ARIA24</techniquesId>
+      <techniquesId>G115</techniquesId>
+      <techniquesId>G117</techniquesId>
+      <techniquesId>G138</techniquesId>
+      <techniquesId>G140</techniquesId>
+      <techniquesId>H39</techniquesId>
+      <techniquesId>H42</techniquesId>
+      <techniquesId>H43</techniquesId>
+      <techniquesId>H44</techniquesId>
+      <techniquesId>H48</techniquesId>
+      <techniquesId>H51</techniquesId>
+      <techniquesId>H63</techniquesId>
+      <techniquesId>H65</techniquesId>
+      <techniquesId>H71</techniquesId>
+      <techniquesId>H73</techniquesId>
+      <techniquesId>H85</techniquesId>
+      <techniquesId>H97</techniquesId>
+      <techniquesId>PDF6</techniquesId>
+      <techniquesId>PDF9</techniquesId>
+      <techniquesId>PDF10</techniquesId>
+      <techniquesId>PDF11</techniquesId>
+      <techniquesId>PDF12</techniquesId>
+      <techniquesId>PDF17</techniquesId>
+      <techniquesId>PDF20</techniquesId>
+      <techniquesId>PDF21</techniquesId>
+      <techniquesId>SL20</techniquesId>
+      <techniquesId>SL26</techniquesId>
+      <techniquesId>SCR21</techniquesId>
+      <techniquesId>T1</techniquesId>
+      <techniquesId>T2</techniquesId>
+      <techniquesId>T3</techniquesId>
+    </techniques>
+
+    <techniques scope="sugerencia">
+      <techniquesId>C22</techniquesId>
+      <techniquesId>G141</techniquesId>
+      <techniquesId>G162</techniquesId>
+      <techniquesId>ARIA1</techniquesId>
+      <techniquesId>ARIA2</techniquesId>
+    </techniques>
+
+
+    <techniques scope="falla">
+      <techniquesId>F2</techniquesId>
+      <techniquesId>F33</techniquesId>
+      <techniquesId>F34</techniquesId>
+      <techniquesId>F42</techniquesId>
+      <techniquesId>F43</techniquesId>
+      <techniquesId>F46</techniquesId>
+      <techniquesId>H48</techniquesId>
+      <techniquesId>H87</techniquesId>
+      <techniquesId>F90</techniquesId>
+      <techniquesId>F91</techniquesId>
+      <techniquesId>F92</techniquesId>
+     
+
+    </techniques>
+    
+  </successCriteria>
+  
+  
+<!---  CRITERIO DE EXITO  1.3.2 -->  
+  <successCriteria>
+    <number> 1.3.2</number>
+    <title>Secuencia significativa</title>
+    <description>Cuando la secuencia en que se presenta el contenido afecta a su significado, se puede determinar por software la secuencia correcta de lectura.</description>
+    <uri>https://www.w3.org/WAI/WCAG21/quickref/#meaningful-sequence</uri>
+    <level>A</level>
+    <techniques scope="suficiente">
+      <techniquesId>G57</techniquesId>
+      <techniquesId>H34</techniquesId>
+      <techniquesId>H56</techniquesId>
+      <techniquesId>C6</techniquesId>
+      <techniquesId>C8</techniquesId>
+      <techniquesId>C27</techniquesId>
+      <techniquesId>PDF3</techniquesId>
+      <techniquesId>SL34</techniquesId>
+    </techniques>
+
+    <techniques scope="sugerencia">
+
+    </techniques>
+
+
+    <techniques scope="falla">
+      <techniquesId>F1</techniquesId>
+      <techniquesId>F32</techniquesId>
+      <techniquesId>F33</techniquesId>
+      <techniquesId>F34</techniquesId>
+      <techniquesId>F49</techniquesId>
+    </techniques>
+
+  </successCriteria>
+  
+  
+  <!---  CRITERIO DE EXITO  1.3.3 -->  
+  <successCriteria>
+    <number> 1.3.3</number>
+    <title>Características sensoriales</title>
+    <description>Las instrucciones proporcionadas para entender y operar el contenido no dependen exclusivamente en las características sensoriales de los componentes como su forma, tamaño, ubicación visual, orientación o sonido.</description>
+    <uri>https://www.w3.org/WAI/WCAG21/quickref/#sensory-characteristics</uri>
+    <level>A</level>
+    <techniques scope="suficiente">
+      <techniquesId>G96</techniquesId>
+    </techniques>
+
+    <techniques scope="sugerencia">
+    </techniques>
+
+
+    <techniques scope="falla">
+      <techniquesId>F14</techniquesId>
+      <techniquesId>F26</techniquesId>
+    </techniques>
+   
+  </successCriteria>
+
+  <!---  CRITERIO DE EXITO  1.3.4 -->  
+ <successCriteria>
+    <number> 1.3.4</number>
+    <title>Orientación</title>
+    <description>El contenido no restringe su visualización y funcionamiento a una única orientación de visualización, como vertical u horizontal, a menos que sea esencial una orientación de visualización específica.</description>
+    <uri>https://www.w3.org/WAI/WCAG21/quickref/#orientation</uri>
+    <level>AA</level>
+    <techniques scope="suficiente">
+      <techniquesId>G214</techniquesId>
+    </techniques>
+
+    <techniques scope="sugerencia">
+    </techniques>
+
+
+    <techniques scope="falla">
+      <techniquesId>F97</techniquesId>
+      <techniquesId>F100</techniquesId>
+     
+    </techniques>
+
+ </successCriteria>
+
+
+<!---  CRITERIO DE EXITO  1.3.5 -->  
+
+
+
+ <successCriteria>    
+    <number> 1.3.5</number>
+    <title>Identificar el propósito de entrada</title>
+    <description>El propósito de cada campo de entrada que recopila información sobre el usuario se puede determinar mediante programación.</description>
+    <uri>https://www.w3.org/WAI/WCAG21/quickref/#identify-input-purpose</uri>
+    <level>AA</level>
+    <techniques scope="suficiente">
+      <techniquesId>H98</techniquesId>
+    </techniques>
+
+    <techniques scope="sugerencia">
+    </techniques>
+
+
+    <techniques scope="falla">
+      <techniquesId>F107</techniquesId>
+    </techniques>
+</successCriteria>
+
+ <!---  CRITERIO DE EXITO  1.3.6 -->  
+
+ <successCriteria>      
+
+<number> 1.3.6</number>
+    <title>Identificar el propósito</title>
+    <description>En el contenido implementado mediante lenguajes de marcado, el propósito de los componentes, iconos y regiones de la interfaz de usuario se puede determinar mediante programación.</description>
+    <uri>https://www.w3.org/WAI/WCAG21/quickref/#identify-purpose</uri>
+    <level>AAA</level>
+    <techniques scope="suficiente">
+      <techniquesId>ARIA11</techniquesId>
+    </techniques>
+
+    <techniques scope="sugerencia">
+
+    </techniques>
+
+
+    <techniques scope="falla">
+     
+    </techniques>
+
+ </successCriteria>
+
+  
+  <!---  CRITERIO DE EXITO  1.4.1 -->  
+  <successCriteria>
+    <number> 1.4.1</number>
+    <title>Uso del color</title>
+    <description>El color no se usa como único medio visual para transmitir la información, indicar una acción, solicitar una respuesta o distinguir un elemento visual.</description>
+    <uri>https://www.w3.org/WAI/WCAG21/quickref/#use-of-color</uri>
+    <level>A</level>
+    <techniques scope="suficiente">
+      <techniquesId>G14</techniquesId>
+      <techniquesId>G111</techniquesId>
+      <techniquesId>G182</techniquesId>
+      <techniquesId>G183</techniquesId>
+      <techniquesId>G205</techniquesId>
+    </techniques>
+
+    <techniques scope="sugerencia">
+      <techniquesId>C15</techniquesId>
+    </techniques>
+
+
+    <techniques scope="falla">
+      <techniquesId>F13</techniquesId>
+      <techniquesId>F73</techniquesId>
+      <techniquesId>F81</techniquesId>
+    </techniques>
+   
+  </successCriteria>
+  
+  <!---  CRITERIO DE EXITO 1.4.2 -->  
+
+  <successCriteria>
+    <number>1.4.2</number>
+    <title>Control del audio</title>
+    <description>Si el audio de una página web suena automáticamente durante más de 3 segundos, se proporciona ya sea un mecanismo para pausar o detener el audio, o un mecanismo para controlar el volumen del sonido que es independiente del nivel de volumen global del sistema. </description>
+    <uri>https://www.w3.org/WAI/WCAG21/quickref/#audio-control</uri>
+    <level>A</level>
+    <techniques scope="suficiente">
+      <techniquesId>G60</techniquesId>
+      <techniquesId>G170</techniquesId>
+      <techniquesId>G171</techniquesId>
+      <techniquesId>SL3</techniquesId>
+      <techniquesId>SL24</techniquesId>
+    </techniques>
+
+    <techniques scope="sugerencia">
+    </techniques>
+
+
+    <techniques scope="falla">
+      <techniquesId>F23</techniquesId>
+      <techniquesId>F93</techniquesId>
+    </techniques>
+   
+  </successCriteria>
+  
+  <!---  CRITERIO DE EXITO 1.4.3 -->  
+
+  <successCriteria>
+    <number>1.4.3</number>
+    <title>Contraste (mínimo)</title>
+    <description>La presentación visual de texto e imágenes de texto tiene una relación de contraste de, al menos, 4.5:1, excepto en los siguientes casos: textos grandes, incidental, logotipos</description>
+    <uri>https://www.w3.org/WAI/WCAG21/quickref/#contrast-minimum</uri>
+    <level>AA</level>
+    <techniques scope="suficiente">
+      <techniquesId>G18</techniquesId>
+      <techniquesId>G145</techniquesId>
+      <techniquesId>G148</techniquesId>
+      <techniquesId>G174</techniquesId>
+      <techniquesId>SL13</techniquesId>
+    </techniques>
+
+    <techniques scope="sugerencia">
+      <techniquesId>G156</techniquesId>
+    </techniques>
+
+
+    <techniques scope="falla">
+      <techniquesId>F24</techniquesId>
+      <techniquesId>F83</techniquesId>
+    </techniques>
+ 
+  </successCriteria>
+  
+  <!---  CRITERIO DE EXITO 1.4.4 -->  
+  <successCriteria>
+    <number>1.4.4</number>
+    <title>Cambio de tamaño del texto</title>
+    <description>A excepción de los subtítulos y las imágenes de texto, todo el texto puede ser ajustado sin ayudas técnicas hasta un 200 por ciento sin que se pierdan el contenido o la funcionalidad.</description>
+    <uri>https://www.w3.org/WAI/WCAG21/quickref/#resize-text</uri>
+    <level>AA</level>
+    <techniques scope="suficiente">
+      <techniquesId>G142</techniquesId>
+      <techniquesId>G146</techniquesId>
+      <techniquesId>G178</techniquesId>
+      <techniquesId>G179</techniquesId>
+      <techniquesId>SL22</techniquesId>
+      <techniquesId>SL23</techniquesId>
+      <techniquesId>C12</techniquesId>
+      <techniquesId>C13</techniquesId>
+      <techniquesId>C14</techniquesId>      
+      <techniquesId>C28</techniquesId>
+      <techniquesId>SCR34</techniquesId>
+    </techniques>
+
+    <techniques scope="sugerencia">
+      <techniquesId>C17</techniquesId>
+      <techniquesId>C20</techniquesId>
+      <techniquesId>C22</techniquesId>
+    </techniques>
+
+
+    <techniques scope="falla">
+      <techniquesId>F69</techniquesId>
+      <techniquesId>F80</techniquesId>
+      <techniquesId>F94</techniquesId>
+    </techniques>
+ 
+  </successCriteria>
+  
+  <!---  CRITERIO DE EXITO  1.4.5 -->  
+  <successCriteria>
+    <number>1.4.5</number>
+    <title>Imágenes de texto</title>
+    <description>Si con las tecnologías que se están utilizando se puede conseguir la presentación visual deseada, se utiliza texto para transmitir la información en vez de imágenes de texto, excepto en los siguientes casos: configurable, esencial</description>
+    <uri>https://www.w3.org/WAI/WCAG21/quickref/#images-of-text</uri>
+    <level>AA</level>
+    <techniques scope="suficiente">
+      <techniquesId>C22</techniquesId>
+      <techniquesId>C30</techniquesId>
+      <techniquesId>G140</techniquesId>
+      <techniquesId>SL31</techniquesId>
+      <techniquesId>PDF7</techniquesId>
+    </techniques>
+
+    <techniques scope="sugerencia">
+      <techniquesId>C6</techniquesId>
+      <techniquesId>C8</techniquesId>
+      <techniquesId>C12</techniquesId>
+      <techniquesId>C13</techniquesId>
+      <techniquesId>C14</techniquesId>
+    </techniques>
+
+
+    <techniques scope="falla">
+    </techniques>
+    
+  </successCriteria>
+  
+  <!---  CRITERIO DE EXITO 1.4.6 -->  
+
+  <successCriteria>
+    <number>1.4.6</number>
+    <title>Contraste (mejorado)</title>
+    <description> La presentación visual de texto e imágenes de texto tiene una relación de contraste de, al menos, 7:1, excepto en los siguientes casos: textos grandes, incidental, logotipos.</description>
+    <uri>https://www.w3.org/WAI/WCAG21/quickref/#contrast-enhanced</uri>
+    <level>AAA</level>
+    <techniques scope="suficiente">
+      <techniquesId>G17</techniquesId>
+      <techniquesId>G18</techniquesId>
+      <techniquesId>G148</techniquesId>      
+      <techniquesId>G174</techniquesId>
+      <techniquesId>SL13</techniquesId>
+    </techniques>
+
+    <techniques scope="sugerencia">
+      <techniquesId>G156</techniquesId>
+    </techniques>
+
+
+    <techniques scope="falla">
+      <techniquesId>F24</techniquesId>
+      <techniquesId>F83</techniquesId>
+    </techniques>
+
+  </successCriteria>
+  
+  <!---  CRITERIO DE EXITO 1.4.7 -->  
+  <successCriteria>
+    <number>1.4.7</number>
+    <title>Sonido de fondo bajo o ausente</title>
+    <description>Para el contenido de sólo audio grabado que (1) contiene habla en primer plano, (2) no es un CAPTCHA sonoro o un audiologo, y (3) que no es una vocalización cuya intención principal es servir como expresión musical (como el canto o el rap), se cumple al menos uno de los siguientes casos: ningún sonido de fondo, apagar, 20 dB</description>
+    <uri>https://www.w3.org/WAI/WCAG21/quickref/#low-or-no-background-audio</uri>
+    <level>AAA</level>
+    <techniques scope="suficiente">
+      <techniquesId>G56</techniquesId>
+    </techniques>
+
+    <techniques scope="sugerencia">
+
+    </techniques>
+
+
+    <techniques scope="falla">
+
+    </techniques>
+
+ 
+  </successCriteria>
+  
+
+  <!---  CRITERIO DE EXITO 1.4.8 -->  
+
+  <successCriteria>
+    <number>1.4.8</number>
+    <title>Presentación visual</title>
+    <description>En la presentación visual de bloques de texto, se proporciona algún mecanismo para lograr lo siguiente.</description>
+    <uri>https://www.w3.org/WAI/WCAG21/quickref/#visual-presentation</uri>
+    <level>AAA</level>
+    <techniques scope="suficiente">
+      <techniquesId>C12</techniquesId>
+      <techniquesId>C13</techniquesId>
+      <techniquesId>C14</techniquesId>
+      <techniquesId>C19</techniquesId>
+      <techniquesId>C20</techniquesId>
+      <techniquesId>C21</techniquesId>
+      <techniquesId>C23</techniquesId>
+      <techniquesId>C24</techniquesId>
+      <techniquesId>C25</techniquesId>
+      <techniquesId>G146</techniquesId>
+      <techniquesId>G148</techniquesId>
+      <techniquesId>G156</techniquesId>
+      <techniquesId>G169</techniquesId>
+      <techniquesId>G172</techniquesId>
+      <techniquesId>G175</techniquesId>
+      <techniquesId>G206</techniquesId>
+      <techniquesId>SCR34</techniquesId>
+    </techniques>
+
+    <techniques scope="sugerencia">
+    </techniques>
+
+
+    <techniques scope="falla">
+      <techniquesId>F24</techniquesId>
+      <techniquesId>F88</techniquesId>
+    </techniques>
+
+  </successCriteria>
+  
+  <!---  CRITERIO DE EXITO 1.4.9 -->  
+
+  <successCriteria>
+    <number>1.4.9</number>
+    <title>Imágenes de texto (sin excepciones)</title>
+    <description>Las imágenes de texto sólo se utilizan como simple decoración o cuando una forma de presentación particular del texto resulta esencial para la información transmitida. </description>
+    <uri>https://www.w3.org/WAI/WCAG21/quickref/#images-of-text-no-exception</uri>
+    <level>AAA</level>
+    <techniques scope="suficiente">
+      <techniquesId>C22</techniquesId>
+      <techniquesId>C30</techniquesId>
+      <techniquesId>G140</techniquesId>
+      <techniquesId>PDF7</techniquesId>
+      <techniquesId>SL31</techniquesId>
+    </techniques>
+
+    <techniques scope="sugerencia">
+      <techniquesId>C6</techniquesId>
+      <techniquesId>C8</techniquesId>
+      <techniquesId>C12</techniquesId>
+      <techniquesId>C13</techniquesId>
+      <techniquesId>C14</techniquesId>
+    </techniques>
+
+
+    <techniques scope="falla">
+    </techniques>
+    
+  </successCriteria>
+
+
+  <!---  CRITERIO DE EXITO 1.4.10 -->  
+<successCriteria>
+    <number>1.4.10</number>
+    <title>Reflujo</title>
+    <description>El contenido se puede presentar sin pérdida de información o funcionalidad, y sin necesidad de desplazarse en dos dimensiones. Excepto por partes del contenido que requieren un diseño bidimensional para su uso o significado.  </description>
+    <uri>https://www.w3.org/WAI/WCAG21/quickref/#reflow</uri>
+    <level>AA</level>
+
+    <techniques scope="suficiente">
+      <techniquesId>C31</techniquesId>
+      <techniquesId>C32</techniquesId>
+      <techniquesId>C33</techniquesId>
+      <techniquesId>C38</techniquesId>
+      <techniquesId>SCR34</techniquesId>
+      <techniquesId>G206</techniquesId>      
+    </techniques>
+
+    <techniques scope="sugerencia">
+      <techniquesId>C34</techniquesId>
+      <techniquesId>C37</techniquesId>
+     
+    </techniques>
+
+    <techniques scope="falla">
+      <techniquesId>F102</techniquesId>
+    </techniques>
+    
+  </successCriteria>
+
+    <!---  CRITERIO DE EXITO 1.4.11 -->  
+
+<successCriteria>
+    <number>1.4.11</number>
+    <title>Contraste sin texto</title>
+    <description>La presentación visual de lo siguiente tiene una relación de contraste de al menos 3:1 frente a los colores adyacentes: Componentes de interfaz de usuario y objetos gráficos </description>
+    <uri>https://www.w3.org/WAI/WCAG21/quickref/#non-text-contrast</uri>
+    <level>AA</level>
+
+    <techniques scope="suficiente">
+      <techniquesId>G18</techniquesId>
+      <techniquesId>G145</techniquesId>
+      <techniquesId>G174</techniquesId>
+      <techniquesId>G195</techniquesId>
+      <techniquesId>G207</techniquesId>
+      <techniquesId>G209</techniquesId>
+      
+    </techniques>
+
+    <techniques scope="sugerencia">
+      <techniquesId>G183</techniquesId>
+    </techniques>
+
+    <techniques scope="falla">
+      <techniquesId>F78</techniquesId>
+    </techniques>
+    
+  </successCriteria>
+
+
+  <!---  CRITERIO DE EXITO 1.4.12 -->
+
+<successCriteria>
+    <number>1.4.12</number>
+    <title>Espaciado de texto</title>
+    <description>En el contenido implementado mediante lenguajes de marcado que admiten las siguientes propiedades de estilo de texto, no se produce pérdida de contenido o funcionalidad al configurar todo lo siguiente y no cambiar ninguna otra propiedad de estilo:  Altura de línea (interlineado) a al menos 1,5 veces el tamaño de fuente; Espaciar los siguientes párrafos al menos 2 veces el tamaño de la fuente; Espaciado entre letras (seguimiento) de al menos 0,12 veces el tamaño de la fuente; Espaciado entre palabras de al menos 0,16 veces el tamaño de la fuente. </description>
+    <uri>https://www.w3.org/WAI/WCAG21/quickref/#text-spacing</uri>
+    <level>AA</level>
+
+    <techniques scope="suficiente">
+      <techniquesId>C35</techniquesId>
+      <techniquesId>C36</techniquesId>  
+    </techniques>
+
+    <techniques scope="sugerencia">
+      <techniquesId>C8</techniquesId>
+      <techniquesId>C21</techniquesId>
+      <techniquesId>C28</techniquesId>
+     
+    </techniques>
+
+    <techniques scope="falla">
+      <techniquesId>F104</techniquesId>
+    </techniques>
+    
+  </successCriteria>
+
+
+  <!---  CRITERIO DE EXITO 1.4.13 -->  
+
+<successCriteria>
+    <number>1.4.13</number>
+    <title>Contenido al pasar el mouse o enfocar</title>
+    <description>Donde recibir y luego quitar el puntero o el foco del teclado desencadena contenido adicional para que se vuelva visible y luego se oculte.</description>
+    <uri>https://www.w3.org/WAI/WCAG21/quickref/#content-on-hover-or-focus</uri>
+    <level>AA</level>
+
+    <techniques scope="suficiente">
+      <techniquesId>SCR39</techniquesId>  
+    </techniques>
+
+    <techniques scope="sugerencia">
+     
+    </techniques>
+
+    <techniques scope="falla">
+      <techniquesId>F95</techniquesId>
+    </techniques>
+    
+  </successCriteria>
+
+  <!---  CRITERIO DE EXITO 2.1.1 -->  
+  <successCriteria>
+    <number>2.1.1</number>
+    <title>Teclado</title>
+    <description>Toda la funcionalidad del contenido es operable a través de una interfaz de teclado sin que se requiera una determinada velocidad para cada pulsación individual de las teclas, excepto cuando la función interna requiere de una entrada que depende del trayecto de los movimientos del usuario y no sólo de los puntos inicial y final.</description>
+    <uri>https://www.w3.org/WAI/WCAG21/quickref/#keyboard</uri>
+    <level>A</level>
+    <techniques scope="suficiente">
+      <techniquesId>G90</techniquesId>
+      <techniquesId>G202</techniquesId>
+      <techniquesId>H91</techniquesId>
+      <techniquesId>PDF3</techniquesId>
+      <techniquesId>PDF11</techniquesId>
+      <techniquesId>PDF33</techniquesId>
+      <techniquesId>SL9</techniquesId>
+      <techniquesId>SL14</techniquesId>
+      <techniquesId>SL15</techniquesId>
+      <techniquesId>SCR2</techniquesId>
+      <techniquesId>SCR20</techniquesId>
+      <techniquesId>SCR35</techniquesId>
+    </techniques>
+
+    <techniques scope="sugerencia">
+      <techniquesId>SCR29</techniquesId>
+    </techniques>
+
+
+    <techniques scope="falla">
+      <techniquesId>F42</techniquesId>
+      <techniquesId>F54</techniquesId>
+      <techniquesId>F55</techniquesId>
+    </techniques>
+
+  </successCriteria>
+  
+  
+  <!---  CRITERIO DE EXITO 2.1.2 -->  
+  <successCriteria>
+    <number>2.1.2</number>
+    <title>Sin trampas para el foco del teclado</title>
+    <description>Si es posible mover el foco a un componente de la página usando una interfaz de teclado, entonces el foco se puede quitar de ese componente usando sólo la interfaz de teclado y, si se requiere algo más que las teclas de dirección o de tabulación, se informa al usuario el método apropiado para mover el foco.</description>
+    <uri>https://www.w3.org/WAI/WCAG21/quickref/#no-keyboard-trapping</uri>
+    <level>A</level>
+    <techniques scope="suficiente">
+      <techniquesId>G21</techniquesId>
+    </techniques>
+
+    <techniques scope="sugerencia">
+    </techniques>
+
+
+    <techniques scope="falla">
+      <techniquesId>F10</techniquesId>
+    </techniques>
+   
+  </successCriteria>
+  
+
+  <!---  CRITERIO DE EXITO 2.1.3 -->  
+  <successCriteria>
+    <number>2.1.3</number>
+    <title>Teclado (sin excepciones)</title>
+    <description>Toda la funcionalidad del contenido se puede operar a través de una interfaz de teclado sin requerir una determinada velocidad en la pulsación de las teclas.</description>
+    <uri>https://www.w3.org/WAI/WCAG21/quickref/#keyboard-no-exception</uri>
+    <level>AAA</level>
+    <techniques scope="suficiente">
+    </techniques>
+
+    <techniques scope="sugerencia">
+    </techniques>
+
+
+    <techniques scope="falla">
+    </techniques>
+    
+  </successCriteria>
+
+
+
+  <!---  CRITERIO DE EXITO 2.1.4 -->  
+
+
+<successCriteria>
+    <number>2.1.4</number>
+    <title>Atajo de teclas de caracteres</title>
+    <description>Si se implementa un atajo de teclado en el contenido usando solo letras (incluidas letras mayúsculas y minúsculas), signos de puntuación, números o símbolos, entonces al menos uno de los siguientes es verdadero: desactivar el atajo, reasignar el mecanismo para el atajo, o activar solo cuando el usuario tiene foco en el componente. </description>
+    <uri>https://www.w3.org/WAI/WCAG21/quickref/#character-key-shortcuts</uri>
+    <level>A</level>
+
+    <techniques scope="suficiente">
+      <techniquesId>G217</techniquesId>      
+    </techniques>
+
+    <techniques scope="sugerencia">
+     
+    </techniques>
+
+    <techniques scope="falla">
+       <techniquesId>F99</techniquesId>
+    </techniques>
+    
+  </successCriteria>
+
+
+  
+  <!---  CRITERIO DE EXITO 2.2.1 -->  
+  <successCriteria>
+    <number>2.2.1</number>
+    <title>Tiempo ajustable</title>
+    <description>Para cada límite de tiempo impuesto por el contenido, se cumple al menos uno de los siguientes casos: apagar, ajustar, extender, excepción de tiempo real, excepción por ser esencial, excepción de 20 horas</description>
+    <uri>https://www.w3.org/WAI/WCAG21/quickref/#timing-adjustable</uri>
+    <level>A</level>
+    <techniques scope="suficiente">
+      <techniquesId>G4</techniquesId>
+      <techniquesId>G133</techniquesId>
+      <techniquesId>G180</techniquesId>
+      <techniquesId>G198</techniquesId>
+      <techniquesId>SCR16</techniquesId>
+      <techniquesId>SCR33</techniquesId>
+      <techniquesId>SCR36</techniquesId>
+      <techniquesId>SL21</techniquesId>
+    </techniques>
+
+    <techniques scope="sugerencia">
+    </techniques>
+
+    <techniques scope="falla">
+      <techniquesId>F40</techniquesId>
+      <techniquesId>F41</techniquesId>
+      <techniquesId>F58</techniquesId>
+    </techniques>
+
+  </successCriteria>
+  
+  <!---  CRITERIO DE EXITO 2.2.2 -->  
+  <successCriteria>
+    <number>2.2.2</number>
+    <title>Poner en pausa, detener, ocultar</title>
+    <description>Para la información que tiene movimiento, parpadeo, se desplaza o se actualiza automáticamente, se cumplen todos los casos siguientes: Movimiento, parpadeo, desplazamiento, actualización automática</description>
+    <uri>https://www.w3.org/WAI/WCAG21/quickref/#pause-stop-hide</uri>
+    <level>A</level>
+    <techniques scope="suficiente">
+      <techniquesId>G4</techniquesId>
+      <techniquesId>G11</techniquesId>
+      <techniquesId>G152</techniquesId>
+      <techniquesId>G186</techniquesId>
+      <techniquesId>G187</techniquesId>
+      <techniquesId>G191</techniquesId>
+      <techniquesId>SCR22</techniquesId>
+      <techniquesId>SCR33</techniquesId>
+      <techniquesId>SL11</techniquesId>
+      <techniquesId>SL12</techniquesId>
+      <techniquesId>SL24</techniquesId>
+    </techniques>
+
+    <techniques scope="sugerencia">
+    </techniques>
+
+
+    <techniques scope="falla">
+      <techniquesId>F4</techniquesId>
+      <techniquesId>F7</techniquesId>
+      <techniquesId>F16</techniquesId>
+      <techniquesId>F47</techniquesId>
+      <techniquesId>F50</techniquesId>
+    </techniques>
+
+  </successCriteria>
+  
+
+  <!---  CRITERIO DE EXITO 2.2.3 -->  
+  <successCriteria>
+    <number>2.2.3</number>
+    <title>Sin tiempo</title>
+    <description>El tiempo no es parte esencial del evento o actividad presentada por el contenido, exceptuando los multimedia sincronizados no interactivos y los eventos en tiempo real.</description>
+    <uri>https://www.w3.org/WAI/WCAG21/quickref/#no-timing</uri>
+    <level>AAA</level>
+    <techniques scope="suficiente">
+      <techniquesId>G5</techniquesId>
+    </techniques>
+
+    <techniques scope="sugerencia">
+    </techniques>
+
+
+    <techniques scope="falla">
+    </techniques>
+
+
+  </successCriteria>
+  
+  <!---  CRITERIO DE EXITO 2.2.4 -->  
+  <successCriteria>
+    <number>2.2.4</number>
+    <title>Interrupciones</title>
+    <description>El usuario puede postergar o suprimir las interrupciones, excepto cuando las interrupciones implican una emergencia. </description>
+    <uri>https://www.w3.org/WAI/WCAG21/quickref/#interruptions</uri>
+    <level>AAA</level>
+    <techniques scope="suficiente">
+      <techniquesId>G75</techniquesId>
+      <techniquesId>G76</techniquesId>
+      <techniquesId>SCR14</techniquesId>
+    </techniques>
+
+    <techniques scope="sugerencia">
+    </techniques>
+
+
+    <techniques scope="falla">
+      <techniquesId>F40</techniquesId>
+      <techniquesId>F41</techniquesId>
+    </techniques>
+   
+  </successCriteria>
+
+
+  
+  <!---  CRITERIO DE EXITO 2.2.5 -->  
+  <successCriteria>
+    <number>2.2.5</number>
+    <title>Re-autentificación</title>
+    <description>Cuando expira una sesión autentificada, el usuario puede continuar la actividad sin pérdida de datos tras volver a identificarse.</description>
+    <uri>https://www.w3.org/WAI/WCAG21/quickref/#re-authenticating</uri>
+    <level>AAA</level>
+    <techniques scope="suficiente">
+      <techniquesId>G105</techniquesId>
+      <techniquesId>G181</techniquesId>
+    </techniques>
+
+    <techniques scope="sugerencia">
+    </techniques>
+
+
+    <techniques scope="falla">
+      <techniquesId>F12</techniquesId>
+    </techniques>
+  
+  </successCriteria>
+
+  <!---  CRITERIO DE EXITO 2.2.6 -->  
+  <successCriteria>
+    <number>2.2.6</number>
+    <title>Tiempos de espera</title>
+    <description>Se advierte a los usuarios sobre la duración de cualquier inactividad del usuario que pueda causar la pérdida de datos, a menos que los datos se conserven durante más de 20 horas cuando el usuario no realiza ninguna acción.  </description>
+    <uri>https://www.w3.org/WAI/WCAG21/quickref/#timeouts</uri>
+    <level>AAA</level>
+
+    <techniques scope="suficiente">
+      
+    </techniques>
+
+    <techniques scope="sugerencia">
+     
+    </techniques>
+
+    <techniques scope="falla">
+    </techniques>
+    
+  </successCriteria>
+  
+
+  
+  <!---  CRITERIO DE EXITO 2.3.1 -->  
+  <successCriteria>
+    <number>2.3.1</number>
+    <title>Umbral de tres destellos o menos</title>
+    <description> Las páginas web no contienen nada que destelle más de tres veces en un segundo, o el destello está por debajo del umbral de destello general y de destello rojo. </description>
+    <uri>https://www.w3.org/WAI/WCAG21/quickref/#three-flashes-or-below-threshold</uri>
+    <level>A</level>
+    <techniques scope="suficiente">
+      <techniquesId>G15</techniquesId>
+      <techniquesId>G19</techniquesId>
+      <techniquesId>G176</techniquesId>
+    </techniques>
+
+    <techniques scope="sugerencia">
+    </techniques>
+
+
+    <techniques scope="falla">
+    </techniques>
+  
+  </successCriteria>
+  
+  
+  <!---  CRITERIO DE EXITO 2.3.2 -->  
+  <successCriteria>
+    <number>2.3.2</number>
+    <title>Tres destellos</title>
+    <description>Las páginas web no contienen nada que destelle más de tres veces por segundo. </description>
+    <uri>https://www.w3.org/WAI/WCAG21/quickref/#three-flashes</uri>
+    <level>AAA</level>
+
+    <techniques scope="suficiente">
+      <techniquesId>G19</techniquesId>
+    </techniques>
+
+    <techniques scope="sugerencia">
+    </techniques>
+
+
+    <techniques scope="falla">
+    </techniques>
+   
+  </successCriteria>
+  
+  <!---  CRITERIO DE EXITO 2.3.3 -->  
+
+<successCriteria>
+    <number>2.3.3</number>
+    <title>Animación de interacciones</title>
+    <description>La animación de movimiento desencadenada por la interacción se puede desactivar, a menos que la animación sea esencial para la funcionalidad o la información que se transmite.  </description>
+    <uri>https://www.w3.org/WAI/WCAG21/quickref/#animation-from-interactions</uri>
+    <level>AAA</level>
+
+    <techniques scope="suficiente">
+      <techniquesId>C39</techniquesId>  
+    </techniques>
+
+    <techniques scope="sugerencia">
+     
+    </techniques>
+
+    <techniques scope="falla">
+    </techniques>
+    
+  </successCriteria>
+
+
+  <!---  CRITERIO DE EXITO 2.4.1 -->  
+  <successCriteria>
+    <number>2.4.1</number>
+    <title>Evitar bloques</title>
+    <description>Existe un mecanismo para evitar los bloques de contenido que se repiten en múltiples páginas web.</description>
+    <uri>https://www.w3.org/WAI/WCAG21/quickref/#bypass-blocks</uri>
+    <level>A</level>
+    <techniques scope="suficiente">
+    </techniques>
+
+    <techniques scope="sugerencia">
+      <techniquesId>C6</techniquesId>
+      <techniquesId>ARIA11</techniquesId>
+      <techniquesId>G1</techniquesId>
+      <techniquesId>G123</techniquesId>
+      <techniquesId>G124</techniquesId>
+      <techniquesId>SL25</techniquesId>
+      <techniquesId>SL29</techniquesId>
+      <techniquesId>H69</techniquesId>
+      <techniquesId>H70</techniquesId>
+      <techniquesId>SCR28</techniquesId>
+      <techniquesId>PDF9</techniquesId>
+    </techniques>
+
+    <techniques scope="falla">
+    </techniques>
+ 
+  </successCriteria>
+  
+  
+
+  <!---  CRITERIO DE EXITO 2.4.2 -->  
+  <successCriteria>
+    <number>2.4.2</number>
+    <title>Titulado de páginas</title>
+    <description>Las páginas web tienen títulos que describen su temática o propósito. </description>
+    <uri>https://www.w3.org/WAI/WCAG21/quickref/#page-titled</uri>
+    <level>A</level>
+    <techniques scope="suficiente">
+      <techniquesId>G88</techniquesId>
+      <techniquesId>H25</techniquesId>
+      <techniquesId>PDF18</techniquesId>
+
+    </techniques>
+
+    <techniques scope="sugerencia">
+      <techniquesId>G127</techniquesId>
+    </techniques>
+
+    <techniques scope="falla">
+      <techniquesId>F25</techniquesId>
+    </techniques>
+   
+  </successCriteria>
+
+  
+  <!---  CRITERIO DE EXITO 2.4.3 -->  
+  <successCriteria>
+    <number>2.4.3</number>
+    <title>Orden del foco</title>
+    <description>Si se puede navegar secuencialmente por una página web y la secuencia de navegación afecta su significado o su operación, los componentes que pueden recibir el foco lo hacen en un orden que preserva su significado y operabilidad.</description>
+    <uri>https://www.w3.org/WAI/WCAG21/quickref/#focus-order</uri>
+    <level>A</level>
+    <techniques scope="suficiente">
+      <techniquesId>H4</techniquesId>
+      <techniquesId>G59</techniquesId>
+      <techniquesId>C27</techniquesId>
+      <techniquesId>PDF3</techniquesId>
+      <techniquesId>SL34</techniquesId>
+      <techniquesId>SCR26</techniquesId>
+      <techniquesId>SCR27</techniquesId>
+      <techniquesId>SCR37</techniquesId>
+    </techniques>
+
+    <techniques scope="sugerencia">
+    </techniques>
+
+    <techniques scope="falla">
+      <techniquesId>F44</techniquesId>
+      <techniquesId>F85</techniquesId>
+    </techniques>
+
+  </successCriteria>
+  
+
+  
+  <!---  CRITERIO DE EXITO 2.4.4 -->  
+  <successCriteria>
+    <number>2.4.4</number>
+    <title>Propósito de los enlaces (en contexto)</title>
+    <description>El propósito de cada enlace puede ser determinado con sólo el texto del enlace o a través del texto del enlace sumado al contexto del enlace determinado por software, excepto cuando el propósito del enlace resultara ambiguo para los usuarios en general.</description>
+    <uri>https://www.w3.org/WAI/WCAG21/quickref/#link-purpose-in-context</uri>
+    <level>A</level>
+    <techniques scope="suficiente">
+      <techniquesId>G53</techniquesId>
+      <techniquesId>G91</techniquesId>
+      <techniquesId>G189</techniquesId>
+      <techniquesId>H24</techniquesId>
+      <techniquesId>H30</techniquesId>
+      <techniquesId>H33</techniquesId>
+      <techniquesId>H77</techniquesId>
+      <techniquesId>H78</techniquesId>
+      <techniquesId>H79</techniquesId>
+      <techniquesId>H81</techniquesId>
+      <techniquesId>SCR30</techniquesId>
+      <techniquesId>C7</techniquesId>
+      <techniquesId>ARIA7</techniquesId>
+      <techniquesId>ARIA8</techniquesId>
+      <techniquesId>PDF11</techniquesId>
+      <techniquesId>PDF13</techniquesId>
+      <techniquesId>SL18</techniquesId>
+    </techniques>
+
+    <techniques scope="sugerencia">
+      <techniquesId>H5</techniquesId>
+      <techniquesId>H80</techniquesId>
+    </techniques>
+
+
+    <techniques scope="falla">
+      <techniquesId>F63</techniquesId>
+      <techniquesId>F89</techniquesId>
+    </techniques>
+
+  </successCriteria>
+  
+  
+  <!---  CRITERIO DE EXITO 2.4.5 -->  
+  <successCriteria>
+    <number>2.4.5</number>
+    <title>Múltiples vías</title>
+    <description>Se proporciona más de un camino para localizar una página web dentro de un conjunto de páginas web, excepto cuando la página es el resultado, o un paso intermedio, de un proceso.</description>
+    <uri>https://www.w3.org/WAI/WCAG21/quickref/#multiple-ways</uri>
+    <level>AA</level>
+    <techniques scope="suficiente">
+      <techniquesId>G63</techniquesId>
+      <techniquesId>G64</techniquesId>
+      <techniquesId>G125</techniquesId>
+      <techniquesId>G126</techniquesId>
+      <techniquesId>G161</techniquesId>
+      <techniquesId>G185</techniquesId>
+      <techniquesId>PDF2</techniquesId>
+    </techniques>
+
+    <techniques scope="sugerencia">
+      <techniquesId>H59</techniquesId>
+    </techniques>
+
+
+    <techniques scope="falla">
+    </techniques>
+  
+  </successCriteria>
+  
+  
+  <!---  CRITERIO DE EXITO 2.4.6 -->  
+  <successCriteria>
+    <number>2.4.6</number>
+    <title>Encabezados y etiquetas</title>
+    <description>Los encabezados y etiquetas describen el tema o propósito.</description>
+    <uri>https://www.w3.org/WAI/WCAG21/quickref/#headings-and-labels</uri>
+    <level>AA</level>
+    <techniques scope="suficiente">
+      <techniquesId>G130</techniquesId>
+      <techniquesId>G131</techniquesId>
+    </techniques>
+
+    <techniques scope="sugerencia">
+    </techniques>
+
+
+    <techniques scope="falla">
+    </techniques>
+    
+  </successCriteria>
+  
+  
+  <!---  CRITERIO DE EXITO 2.4.7 -->  
+  <successCriteria>
+    <number>2.4.7</number>
+    <title>Foco visible</title>
+    <description>Cualquier interfaz de usuario operable por teclado tiene una forma de operar en la cuál el indicador del foco del teclado resulta visible. </description>
+    <uri>https://www.w3.org/WAI/WCAG21/quickref/#focus-visible</uri>
+    <level>AA</level>
+    <techniques scope="suficiente">
+      <techniquesId>C15</techniquesId>      
+      <techniquesId>G149</techniquesId>
+      <techniquesId>G165</techniquesId>
+      <techniquesId>G195</techniquesId>
+      <techniquesId>SCR31</techniquesId>
+      <techniquesId>SL2</techniquesId>
+      <techniquesId>SL7</techniquesId>
+    </techniques>
+
+    <techniques scope="sugerencia">
+    </techniques>
+
+
+    <techniques scope="falla">
+      <techniquesId>F55</techniquesId>
+      <techniquesId>F78</techniquesId>
+    </techniques>
+ 
+  </successCriteria>
+  
+  
+  <!---  CRITERIO DE EXITO 2.4.8 -->  
+  <successCriteria>
+    <number>2.4.8</number>
+    <title>Ubicación</title>
+    <description>Se proporciona información acerca de la ubicación del usuario dentro de un conjunto de páginas web.</description>
+    <uri>https://www.w3.org/WAI/WCAG21/quickref/#location</uri>
+    <level>AAA</level>
+    <techniques scope="suficiente">
+      <techniquesId>G63</techniquesId>
+      <techniquesId>G65</techniquesId>
+      <techniquesId>G127</techniquesId>
+      <techniquesId>G128</techniquesId>
+      <techniquesId>H59</techniquesId>
+    </techniques>
+
+    <techniques scope="sugerencia">
+      <techniquesId>PDF14</techniquesId>
+      <techniquesId>PDF17</techniquesId>
+    </techniques>
+
+
+    <techniques scope="falla">
+    </techniques>
+   
+  </successCriteria>
+  
+  
+  <!---  CRITERIO DE EXITO 2.4.9 -->  
+  <successCriteria>
+    <number>2.4.9</number>
+    <title>Propósito de los enlaces (sólo enlaces)</title>
+    <description></description>
+    <uri>https://www.w3.org/WAI/WCAG21/quickref/#link-purpose-link-only</uri>
+    <level>AAA</level>
+    <techniques scope="suficiente">
+      <techniquesId>ARIA8</techniquesId>
+      <techniquesId>C7</techniquesId>
+      <techniquesId>G91</techniquesId>
+      <techniquesId>G189</techniquesId>
+      <techniquesId>H24</techniquesId>
+      <techniquesId>H30</techniquesId>
+      <techniquesId>PDF11</techniquesId>
+      <techniquesId>PDF13</techniquesId>
+      <techniquesId>SCR30</techniquesId>
+      <techniquesId>SL18</techniquesId>
+    </techniques>
+
+    <techniques scope="sugerencia">
+      <techniquesId>H2</techniquesId>
+      <techniquesId>H33</techniquesId>
+
+    </techniques>
+
+    <techniques scope="falla">
+      <techniquesId>F84</techniquesId>
+      <techniquesId>F89</techniquesId>
+    </techniques>
+
+  </successCriteria>
+  
+  
+  <!---  CRITERIO DE EXITO 2.4.10 -->  
+  <successCriteria>
+    <number>2.4.10</number>
+    <title>Encabezados de sección</title>
+    <description>Se usan encabezados de sección para organizar el contenido. </description>
+    <uri>https://www.w3.org/WAI/WCAG21/quickref/#section-headings</uri>
+    <level>AAA</level>
+    <techniques scope="suficiente">
+      <techniquesId>G141</techniquesId>
+      <techniquesId>H69</techniquesId>
+    </techniques>
+
+    <techniques scope="sugerencia">
+    </techniques>
+
+
+    <techniques scope="falla">
+    </techniques>
+  
+  </successCriteria>
+
+  <!---  CRITERIO DE EXITO 2.5.1 -->  
+<successCriteria>
+    <number>2.5.1</number>
+    <title>Gestos de puntero</title>
+    <description>Toda la funcionalidad que utiliza gestos multipunto o basados en rutas para la operación se puede operar con un solo puntero sin un gesto basado en rutas, a menos que sea esencial un gesto multipunto o basado en rutas.  </description>
+    <uri>https://www.w3.org/WAI/WCAG21/quickref/#pointer-gestures</uri>
+    <level>A</level>
+
+    <techniques scope="suficiente">
+      <techniquesId>G215</techniquesId>
+      <techniquesId>G216</techniquesId>
+      
+    </techniques>
+
+    <techniques scope="sugerencia">
+     
+    </techniques>
+
+    <techniques scope="falla">
+      <techniquesId>F105</techniquesId>
+    </techniques>
+    
+  </successCriteria>
+
+
+
+ <!---  CRITERIO DE EXITO 2.5.2 -->  
+
+<successCriteria>
+    <number>2.5.2</number>
+    <title>Cancelación de puntero</title>
+    <description>Para la funcionalidad que se puede operar usando un solo puntero, al menos uno de los siguientes es verdadero: sin evento descendente, abortar o deshacer, reversión hacia arriba o esencial (Completar la función en el evento down es esencial). </description>
+    <uri>https://www.w3.org/WAI/WCAG21/quickref/#pointer-cancellation</uri>
+    <level>A</level>
+
+    <techniques scope="suficiente">
+      <techniquesId>G210</techniquesId>
+      <techniquesId>G211</techniquesId>
+      <techniquesId>G212</techniquesId>
+      
+      
+    </techniques>
+
+    <techniques scope="sugerencia">
+     
+    </techniques>
+
+    <techniques scope="falla">
+      <techniquesId>F101</techniquesId>
+    </techniques>
+    
+  </successCriteria>
+
+
+ <!---  CRITERIO DE EXITO 2.5.3 -->  
+
+<successCriteria>
+    <number>2.5.3</number>
+    <title>Etiqueta en nombre</title>
+    <description>Para los componentes de la interfaz de usuario con etiquetas que incluyen texto o imágenes de texto, el nombre contiene el texto que se presenta visualmente. L </description>
+    <uri>https://www.w3.org/WAI/WCAG21/quickref/#label-in-name</uri>
+    <level>A</level>
+
+    <techniques scope="suficiente">
+      <techniquesId>G208</techniquesId>
+      <techniquesId>G211</techniquesId>
+      
+    </techniques>
+
+    <techniques scope="sugerencia">
+      <techniquesId>G152</techniquesId>
+     
+    </techniques>
+
+    <techniques scope="falla">
+      <techniquesId>F96</techniquesId>
+    </techniques>
+    
+  </successCriteria>
+
+
+ <!---  CRITERIO DE EXITO 2.5.4 -->  
+
+<successCriteria>
+    <number>2.5.4</number>
+    <title>Actuación de movimiento</title>
+    <description>La funcionalidad que puede ser operada por el movimiento del dispositivo o el movimiento del usuario también puede ser operada por los componentes de la interfaz de usuario y la respuesta al movimiento puede desactivarse para evitar la activación accidental, excepto cuando: el movimiento se utiliza para operar la funcionalidad a través de una interfaz compatible con accesibilidad; El movimiento es esencial para la función y hacerlo invalidaría la actividad.  </description>
+    <uri>https://www.w3.org/WAI/WCAG21/quickref/#motion-actuation</uri>
+    <level>A</level>
+
+    <techniques scope="suficiente">
+      <techniquesId>G213</techniquesId>
+      
+    </techniques>
+
+    <techniques scope="sugerencia">
+     
+    </techniques>
+
+    <techniques scope="falla">
+      <techniquesId>F106</techniquesId>
+    </techniques>
+    
+  </successCriteria>
+
+
+ <!---  CRITERIO DE EXITO 2.5.5 -->  
+
+<successCriteria>
+    <number>2.5.5</number>
+    <title>Tamaño objetivo</title>
+    <description>El tamaño del objetivo para las entradas del puntero es de al menos 44 por 44 píxeles CSS, excepto cuando: el objetivo está disponible a través de un enlace o control equivalente en la misma página que tiene al menos 44 por 44 píxeles CSS;  el objetivo está en una oración o bloque de texto; el tamaño del objetivo lo determina el agente de usuario y el autor no lo modifica; o una presentación particular del objetivo es esencial para la información que se transmite.  </description>
+    <uri>https://www.w3.org/WAI/WCAG21/quickref/#target-size</uri>
+    <level>AAA</level>
+
+    <techniques scope="suficiente">
+      
+    </techniques>
+
+    <techniques scope="sugerencia">
+     
+    </techniques>
+
+    <techniques scope="falla">
+    </techniques>
+    
+  </successCriteria>
+
+
+ <!---  CRITERIO DE EXITO 2.5.6 -->  
+<successCriteria>
+    <number>2.5.6</number>
+    <title>Mecanismos de entrada concurrentes</title>
+    <description>El contenido web no restringe el uso de las modalidades de entrada disponibles en una plataforma, excepto cuando la restricción sea esencial, necesaria para garantizar la seguridad del contenido o necesaria para respetar la configuración del usuario.  </description>
+    <uri>https://www.w3.org/WAI/WCAG21/quickref/#concurrent-input-mechanisms</uri>
+    <level>AAA</level>
+
+    <techniques scope="suficiente">
+      
+    </techniques>
+
+    <techniques scope="sugerencia">
+     
+    </techniques>
+
+    <techniques scope="falla">
+      <techniquesId>F98</techniquesId>
+    </techniques>
+    
+  </successCriteria>
+
+
+  
+  <!---  CRITERIO DE EXITO 3.1.1 -->  
+  <successCriteria>
+    <number>3.1.1</number>
+    <title>Idioma de la página</title>
+    <description>El idioma predeterminado de cada página web puede ser determinado por software.</description>
+    <uri>https://www.w3.org/WAI/WCAG21/quickref/#language-of-page</uri>
+    <level>A</level>
+
+    <techniques scope="suficiente">
+      <techniquesId>H57</techniquesId>
+      <techniquesId>PDF16</techniquesId>
+      <techniquesId>PDF19</techniquesId>
+    </techniques>
+
+    <techniques scope="sugerencia">
+      <techniquesId>SVR5</techniquesId>
+    </techniques>
+
+    <techniques scope="falla">
+    </techniques>
+
+  </successCriteria>
+  
+
+  <!---  CRITERIO DE EXITO 3.1.2 -->  
+  <successCriteria>
+    <number>3.1.2</number>
+    <title>Idioma de las partes</title>
+    <description>El idioma de cada pasaje o frase en el contenido puede ser determinado por software, excepto los nombres propios, términos técnicos, palabras en un idioma indeterminado y palabras o frases que se hayan convertido en parte natural del texto que las rodea.</description>
+    <uri>https://www.w3.org/WAI/WCAG21/quickref/#language-of-parts</uri>
+    <level>AA</level>
+    <techniques scope="suficiente">
+      <techniquesId>H58</techniquesId>
+      <techniquesId>SL4</techniquesId>
+      <techniquesId>PDF19</techniquesId>
+    </techniques>
+
+    <techniques scope="sugerencia">
+      <techniquesId>SL27</techniquesId>
+    </techniques>
+
+
+    <techniques scope="falla">
+    </techniques>
+
+  </successCriteria>
+  
+
+
+  <!---  CRITERIO DE EXITO 3.1.3 -->  
+  <successCriteria>
+    <number>3.1.3</number>
+    <title>Palabras inusuales</title>
+    <description>Se proporciona un mecanismo para identificar las definiciones específicas de palabras o frases usadas de modo inusual o restringido, incluyendo expresiones idiomáticas y jerga.</description>
+    <uri>https://www.w3.org/WAI/WCAG21/quickref/#unusual-words</uri>
+    <level>AAA</level>
+    <techniques scope="suficiente">
+      <techniquesId>G55</techniquesId>
+      <techniquesId>G62</techniquesId>
+      <techniquesId>G70</techniquesId>
+      <techniquesId>G101</techniquesId>
+      <techniquesId>G112</techniquesId>
+      <techniquesId>H40</techniquesId>
+      <techniquesId>H54</techniquesId>
+      <techniquesId>H60</techniquesId>
+    </techniques>
+
+    <techniques scope="sugerencia">
+    </techniques>
+
+    <techniques scope="falla">
+    </techniques>
+  
+  </successCriteria>
+  
+
+
+  <!---  CRITERIO DE EXITO 3.1.4 -->  
+  <successCriteria>
+    <number>3.1.4</number>
+    <title>Abreviaturas</title>
+    <description>Se proporciona un mecanismo para identificar la forma expandida o el significado de las abreviaturas. </description>
+    <uri>https://www.w3.org/WAI/WCAG21/quickref/#abbreviations</uri>
+    <level>AAA</level>
+    <techniques scope="suficiente">
+      <techniquesId>G55</techniquesId>
+      <techniquesId>G62</techniquesId>
+      <techniquesId>G70</techniquesId>
+      <techniquesId>G97</techniquesId>
+      <techniquesId>G102</techniquesId>
+      <techniquesId>H28</techniquesId>
+      <techniquesId>H60</techniquesId>
+      <techniquesId>PDF8</techniquesId>
+    </techniques>
+
+    <techniques scope="sugerencia">
+    </techniques>
+
+    <techniques scope="falla">
+    </techniques>
+
+  </successCriteria>
+  
+
+
+  <!---  CRITERIO DE EXITO 3.1.5 -->  
+  <successCriteria>
+    <number>3.1.5</number>
+    <title>Nivel de lectura</title>
+    <description>Cuando un texto requiere un nivel de lectura más avanzado que el nivel mínimo de educación secundaria una vez que se han eliminado nombres propios y títulos, se proporciona un contenido suplementario o una versión que no requiere un nivel de lectura mayor a ese nivel educativo.</description>
+    <uri>https://www.w3.org/WAI/WCAG21/quickref/#reading-level</uri>
+    <level>AAA</level>
+    <techniques scope="suficiente">
+      <techniquesId>G79</techniquesId>
+      <techniquesId>G86</techniquesId>
+      <techniquesId>G103</techniquesId>
+      <techniquesId>G153</techniquesId>
+      <techniquesId>G160</techniquesId>
+    </techniques>
+
+    <techniques scope="sugerencia">
+    </techniques>
+
+
+    <techniques scope="falla">
+    </techniques>
+  
+  </successCriteria>
+  
+
+
+  <!---  CRITERIO DE EXITO 3.1.6 -->  
+  <successCriteria>
+    <number>3.1.6</number>
+    <title>Pronunciación</title>
+    <description>Se proporciona un mecanismo para identificar la pronunciación específica de las palabras cuando el significado de esas palabras, dentro del contexto, resulta ambiguo si no se conoce su pronunciación. </description>
+    <uri>https://www.w3.org/WAI/WCAG21/quickref/#pronunciation</uri>
+    <level>AAA</level>
+    <techniques scope="suficiente">
+      <techniquesId>G62</techniquesId>
+      <techniquesId>G120</techniquesId>
+      <techniquesId>G121</techniquesId>
+      <techniquesId>G163</techniquesId>
+      <techniquesId>H62</techniquesId>
+    </techniques>
+
+    <techniques scope="sugerencia">
+    </techniques>
+
+    <techniques scope="falla">
+    </techniques>
+   
+  </successCriteria>
+  
+
+
+<!---  CRITERIO DE EXITO 3.2.1 -->  
+  <successCriteria>
+    <number>3.2.1</number>
+    <title>Al recibir el foco</title>
+    <description>Cuando cualquier componente recibe el foco, no inicia ningún cambio en el contexto. </description>
+    <uri>https://www.w3.org/WAI/WCAG21/quickref/#on-focus</uri>
+    <level>A</level>
+    <techniques scope="suficiente">
+      <techniquesId>G107</techniquesId>
+    </techniques>
+
+    <techniques scope="sugerencia">
+      <techniquesId>G200</techniquesId>
+      <techniquesId>G201</techniquesId>
+    </techniques>
+
+    <techniques scope="falla">
+      <techniquesId>F55</techniquesId>
+    </techniques>
+   
+  </successCriteria>
+  
+
+
+  
+  <!---  CRITERIO DE EXITO 3.2.2 -->  
+  <successCriteria>
+    <number>3.2.2</number>
+    <title>Al recibir entradas</title>
+    <description>El cambio de estado en cualquier componente de la interfaz de usuario no provoca automáticamente un cambio en el contexto a menos que el usuario haya sido advertido de ese comportamiento antes de usar el componente. </description>
+    <uri>https://www.w3.org/WAI/WCAG21/quickref/#on-input</uri>
+    <level>AA</level>
+    <techniques scope="suficiente">
+      <techniquesId>G13</techniquesId>
+      <techniquesId>G80</techniquesId>
+      <techniquesId>H32</techniquesId>
+      <techniquesId>H84</techniquesId>
+      <techniquesId>SCR19</techniquesId>
+      <techniquesId>SL10</techniquesId>
+      <techniquesId>PDF15</techniquesId>
+    </techniques>
+
+    <techniques scope="sugerencia">
+      <techniquesId>G201</techniquesId>
+    </techniques>
+
+    <techniques scope="falla">
+      <techniquesId>F36</techniquesId>
+      <techniquesId>F37</techniquesId>
+    </techniques>
+
+  </successCriteria>
+  
+
+
+  <!---  CRITERIO DE EXITO 3.2.3 -->  
+  <successCriteria>
+    <number>3.2.3</number>
+    <title>Navegación coherente</title>
+    <description>Los mecanismos de navegación que se repiten en múltiples páginas web dentro de un conjunto de páginas web aparecen siempre en el mismo orden relativo cada vez que se repiten, a menos que el cambio sea provocado por el propio usuario. </description>
+    <uri>https://www.w3.org/WAI/WCAG21/quickref/#consistent-navigation</uri>
+    <level>AA</level>
+    <techniques scope="suficiente">
+      <techniquesId>G61</techniquesId>
+    </techniques>
+
+    <techniques scope="sugerencia">
+      <techniquesId>PDF14</techniquesId>
+      <techniquesId>PDF17</techniquesId>
+    </techniques>
+
+
+    <techniques scope="falla">
+      <techniquesId>F66</techniquesId>
+    </techniques>
+ 
+  </successCriteria>
+  
+
+
+  <!---  CRITERIO DE EXITO 3.2.4 -->  
+  <successCriteria>
+    <number>3.2.4</number>
+    <title>Identificación coherente</title>
+    <description>Los componentes que tienen la misma funcionalidad dentro de un conjunto de páginas web son identificados de manera coherente. </description>
+    <uri>https://www.w3.org/WAI/WCAG21/quickref/#consistent-identification</uri>
+    <level>AA</level>
+    <techniques scope="suficiente">
+      <techniquesId>G197</techniquesId>
+    </techniques>
+
+    <techniques scope="sugerencia">
+    </techniques>
+
+
+    <techniques scope="falla">
+       <techniquesId>F31</techniquesId>
+    </techniques>
+
+  </successCriteria>
+  
+
+
+  <!---  CRITERIO DE EXITO 3.2.5 -->  
+  <successCriteria>
+    <number>3.2.5</number>
+    <title>Cambios a petición</title>
+    <description> Los cambios en el contexto son iniciados únicamente a solicitud del usuario o se proporciona un mecanismo para detener tales cambios. </description>
+    <uri>https://www.w3.org/WAI/WCAG21/quickref/#change-on-request</uri>
+    <level>AAA</level>
+    <techniques scope="suficiente">
+      <techniquesId>G76</techniquesId>
+      <techniquesId>G110</techniquesId>
+      <techniquesId>H76</techniquesId>
+      <techniquesId>H83</techniquesId>
+      <techniquesId>SCR19</techniquesId>
+      <techniquesId>SCR24</techniquesId>
+      <techniquesId>SVR1</techniquesId>
+    </techniques>
+
+    <techniques scope="sugerencia">
+      <techniquesId>G200</techniquesId>
+    </techniques>
+
+    <techniques scope="falla">
+      <techniquesId>F9</techniquesId>
+      <techniquesId>F22</techniquesId>
+      <techniquesId>F41</techniquesId>
+      <techniquesId>F52</techniquesId>
+      <techniquesId>F60</techniquesId>
+      <techniquesId>F61</techniquesId>
+    </techniques>
+   
+  </successCriteria>
+  
+
+
+  <!---  CRITERIO DE EXITO 3.3.1 -->  
+  <successCriteria>
+    <number>3.3.1</number>
+    <title>Identificación de errores</title>
+    <description>Si se detecta automáticamente un error en la entrada de datos, el elemento erróneo es identificado y el error se describe al usuario mediante un texto.</description>
+    <uri>https://www.w3.org/WAI/WCAG21/quickref/#error-identification</uri>
+    <level>A</level>
+    <techniques scope="suficiente">
+      <techniquesId>G83</techniquesId>
+      <techniquesId>G84</techniquesId>
+      <techniquesId>G85</techniquesId>
+      <techniquesId>ARIA18</techniquesId>
+      <techniquesId>ARIA19</techniquesId>
+      <techniquesId>ARIA21</techniquesId>
+      <techniquesId>PDF5</techniquesId>
+      <techniquesId>PDF22</techniquesId>
+      <techniquesId>SL35</techniquesId>
+      <techniquesId>SCR18</techniquesId>
+      <techniquesId>SCR32</techniquesId>
+
+    </techniques>
+
+    <techniques scope="sugerencia">
+      <techniquesId>G139</techniquesId>
+      <techniquesId>G199</techniquesId>
+    </techniques>
+
+    <techniques scope="falla">
+    </techniques>
+
+  </successCriteria>
+  
+
+
+  <!---  CRITERIO DE EXITO 3.3.2 -->  
+  <successCriteria>
+    <number>3.3.2</number>
+    <title>Etiquetas o instrucciones</title>
+    <description>Se proporcionan etiquetas o instrucciones cuando el contenido requiere la introducción de datos por parte del usuario.</description>
+    <uri>https://www.w3.org/WAI/WCAG21/quickref/#labels-or-instructions</uri>
+    <level>A</level>
+    <techniques scope="suficiente">
+      <techniquesId>ARIA1</techniquesId>
+      <techniquesId>ARIA9</techniquesId>
+      <techniquesId>ARIA17</techniquesId>
+      <techniquesId>G83</techniquesId>
+      <techniquesId>G89</techniquesId>
+      <techniquesId>G131</techniquesId>
+      <techniquesId>G162</techniquesId>
+      <techniquesId>G167</techniquesId>
+      <techniquesId>G184</techniquesId>
+      <techniquesId>SL8</techniquesId>      
+      <techniquesId>SL26</techniquesId>
+      <techniquesId>H44</techniquesId>
+      <techniquesId>H71</techniquesId>
+      <techniquesId>H90</techniquesId>
+      <techniquesId>PDF5</techniquesId>
+      <techniquesId>PDF10</techniquesId>
+
+    </techniques>
+
+    <techniques scope="sugerencia">
+      <techniquesId>G13</techniquesId>
+      <techniquesId>SL19</techniquesId>
+    </techniques>
+
+    <techniques scope="falla">
+      <techniquesId>F82</techniquesId>
+    </techniques>
+
+ </successCriteria>
+  
+
+
+
+  <!---  CRITERIO DE EXITO 3.3.3 -->  
+  <successCriteria>
+    <number>3.3.3</number>
+    <title>Sugerencias ante errores</title>
+    <description>Si se detecta automáticamente un error en la entrada de datos y se dispone de sugerencias para hacer la corrección, entonces se presentan las sugerencias al usuario, a menos que esto ponga en riesgo la seguridad o el propósito del contenido. </description>
+    <uri>https://www.w3.org/WAI/WCAG21/quickref/#error-suggestion</uri>
+    <level>AA</level>
+    <techniques scope="suficiente">
+      <techniquesId>ARIA2</techniquesId>
+      <techniquesId>ARIA18</techniquesId>
+      <techniquesId>PDF5</techniquesId>
+      <techniquesId>PDF22</techniquesId>
+      <techniquesId>G83</techniquesId>
+      <techniquesId>G84</techniquesId>
+      <techniquesId>G85</techniquesId>
+      <techniquesId>G177</techniquesId>
+      <techniquesId>SL35</techniquesId>
+      <techniquesId>SCR18</techniquesId>
+      <techniquesId>SCR32</techniquesId>
+    </techniques>
+
+    <techniques scope="sugerencia">
+      <techniquesId>G139</techniquesId>
+      <techniquesId>G199</techniquesId>
+      <techniquesId>SCR18</techniquesId>
+    </techniques>
+
+    <techniques scope="falla">
+    </techniques>
+   
+  </successCriteria>
+  
+
+
+  <!---  CRITERIO DE EXITO 3.3.4 -->  
+  <successCriteria>
+    <number>3.3.4</number>
+    <title>Prevención de errores (legales, financieros, datos)</title>
+    <description>Para las páginas web que representan para el usuario compromisos legales o transacciones financieras; que modifican o eliminan datos controlables por el usuario en sistemas de almacenamiento de datos; o que envían las respuestas del usuario a una prueba, se cumple al menos uno de los siguientes casos: reversible, revisado, confirmado.</description>
+    <uri>https://www.w3.org/WAI/WCAG21/quickref/#error-prevention-legal-financial-data</uri>
+    <level>AA</level>
+    <techniques scope="suficiente">
+      <techniquesId>G98</techniquesId>
+      <techniquesId>G99</techniquesId>
+      <techniquesId>G155</techniquesId>
+      <techniquesId>G164</techniquesId>
+      <techniquesId>G168</techniquesId>
+    </techniques>
+
+    <techniques scope="sugerencia">
+      <techniquesId>SCR18</techniquesId>
+      <techniquesId>SL35</techniquesId>
+      <techniquesId>G199</techniquesId>
+    </techniques>
+
+    <techniques scope="falla">
+    </techniques>
+
+  </successCriteria>
+  
+
+
+
+  <!---  CRITERIO DE EXITO 3.3.5 -->  
+  <successCriteria>
+    <number>3.3.5</number>
+    <title>Ayuda</title>
+    <description>Se proporciona ayuda dependiente del contexto</description>
+    <uri>https://www.w3.org/WAI/WCAG21/quickref/#help</uri>
+    <level>AAA</level>
+    <techniques scope="suficiente">
+      <techniquesId>G71</techniquesId>
+      <techniquesId>G89</techniquesId>
+      <techniquesId>G184</techniquesId>
+      <techniquesId>G193</techniquesId>
+      <techniquesId>G194</techniquesId>
+    </techniques>
+
+    <techniques scope="sugerencia">
+      <techniquesId>H89</techniquesId>
+    </techniques>
+
+    <techniques scope="falla">
+    </techniques>
+    <techniques>
+     
+    </techniques>
+  </successCriteria>
+  
+
+  
+  <!---  CRITERIO DE EXITO 3.3.6 -->  
+  <successCriteria>
+    <number>3.3.6</number>
+    <title>Prevención de errores (todos)</title>
+    <description>Para las páginas web que requieren al usuario el envío de información, se cumple al menos uno de los siguientes casos: reversible, revisado, confirmado</description>
+    <uri>https://www.w3.org/WAI/WCAG21/quickref/#error-prevention-all</uri>
+    <level>AAA</level>
+    <techniques scope="suficiente">
+      <techniquesId>G98</techniquesId>
+      <techniquesId>G99</techniquesId>
+      <techniquesId>G155</techniquesId>
+      <techniquesId>G164</techniquesId>
+      <techniquesId>G168</techniquesId>
+    </techniques>
+
+    <techniques scope="sugerencia">
+    </techniques>
+
+
+    <techniques scope="falla">
+    </techniques>
+    <techniques>
+      <techniquesId>G98</techniquesId>
+      <techniquesId>G99</techniquesId>
+      <techniquesId>G155</techniquesId>
+      <techniquesId>G164</techniquesId>
+      <techniquesId>G168</techniquesId>
+      <techniquesId>G199</techniquesId>
+    </techniques>
+  </successCriteria>
+  
+
+
+
+
+  <!---  CRITERIO DE EXITO 4.1.1 -->  
+  <successCriteria>
+    <number>4.1.1</number>
+    <title>Procesamiento</title>
+    <description>En los contenidos implementados mediante el uso de lenguajes de marcas, los elementos tienen las etiquetas de apertura y cierre completas; los elementos están anidados de acuerdo a sus especificaciones; los elementos no contienen atributos duplicados y los ID son únicos, excepto cuando las especificaciones permitan estas características.</description>
+    <uri>https://www.w3.org/WAI/WCAG21/quickref/#parsing</uri>
+    <level>A</level>
+    <techniques scope="suficiente">
+      <techniquesId>H74</techniquesId>
+      <techniquesId>H75</techniquesId>
+      <techniquesId>H88</techniquesId>
+      <techniquesId>G134</techniquesId>
+      <techniquesId>G192</techniquesId>
+      <techniquesId>SL33</techniquesId>
+    </techniques>
+
+    <techniques scope="sugerencia">
+    </techniques>
+
+
+    <techniques scope="falla">
+      <techniquesId>F70</techniquesId>
+      <techniquesId>F77</techniquesId>
+    </techniques>
+   
+  </successCriteria>
+  
+
+
+
+  <!---  CRITERIO DE EXITO 4.1.2 -->  
+  <successCriteria>
+    <number>4.1.2</number>
+    <title>Nombre, función, valor</title>
+    <description>Para todos los componentes de la interfaz de usuario (incluyendo pero no limitado a: elementos de formulario, enlaces y componentes generados por scripts), el nombre y la función pueden ser determinados por software; los estados, propiedades y valores que pueden ser asignados por el usuario pueden ser especificados por software; y los cambios en estos elementos se encuentran disponibles para su consulta por las aplicaciones de usuario, incluyendo las ayudas técnicas.</description>
+    <uri>https://www.w3.org/WAI/WCAG21/quickref/#name-role-value</uri>
+    <level>A</level>
+    <techniques scope="suficiente">
+      <techniquesId>ARIA4</techniquesId>
+      <techniquesId>ARIA5</techniquesId>
+      <techniquesId>ARIA14</techniquesId>
+      <techniquesId>ARIA16</techniquesId>
+      <techniquesId>SL6</techniquesId>
+      <techniquesId>SL18</techniquesId>
+      <techniquesId>SL20</techniquesId>
+      <techniquesId>SL26</techniquesId>
+      <techniquesId>SL30</techniquesId>
+      <techniquesId>SL32</techniquesId>
+      <techniquesId>PDF10</techniquesId>
+      <techniquesId>PDF12</techniquesId>
+      <techniquesId>G10</techniquesId>
+      <techniquesId>G108</techniquesId>
+      <techniquesId>G135</techniquesId>
+      <techniquesId>H44</techniquesId>
+      <techniquesId>H64</techniquesId>
+      <techniquesId>H65</techniquesId>
+      <techniquesId>H88</techniquesId>
+      <techniquesId>H91</techniquesId>
+    </techniques>    
+
+    <techniques scope="sugerencia">
+    </techniques>
+
+    <techniques scope="falla">
+      <techniquesId>F15</techniquesId>
+      <techniquesId>F20</techniquesId>
+      <techniquesId>F59</techniquesId>
+      <techniquesId>F68</techniquesId>
+      <techniquesId>F79</techniquesId>
+      <techniquesId>F86</techniquesId>
+      <techniquesId>F89</techniquesId>
+    </techniques>
+   
+  </successCriteria>
+
+  <!---  CRITERIO DE EXITO 4.1.3 -->  
+<successCriteria>
+    <number>4.1.3</number>
+    <title>Mensajes de estado</title>
+    <description>LEn el contenido implementado mediante lenguajes de marcado, los mensajes de estado se pueden determinar mediante programación a través de roles o propiedades, de modo que se puedan presentar al usuario mediante tecnologías de asistencia sin recibir atención.  </description>
+    <uri>https://www.w3.org/WAI/WCAG21/quickref/#status-messages</uri>
+    <level>AA</level>
+
+    <techniques scope="suficiente">
+      <techniquesId>ARIA19</techniquesId>
+      <techniquesId>ARIA22</techniquesId>
+      <techniquesId>ARIA23</techniquesId>
+      <techniquesId>G83</techniquesId>
+      <techniquesId>G84</techniquesId>
+      <techniquesId>G85</techniquesId>
+      <techniquesId>G177</techniquesId>
+      <techniquesId>G193</techniquesId>
+      <techniquesId>G194</techniquesId>
+
+
+      
+    </techniques>
+
+    <techniques scope="sugerencia">
+      <techniquesId>ARIA18</techniquesId>
+      <techniquesId>SCR14</techniquesId>
+     
+    </techniques>
+
+    <techniques scope="falla">
+      <techniquesId>F103</techniquesId>
+    </techniques>
+    
+  </successCriteria>
+
+
+
+     
+</guidelines>
+

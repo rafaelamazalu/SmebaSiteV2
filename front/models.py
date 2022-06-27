@@ -133,3 +133,31 @@ class UsuarioEstereotipado(models.Model):
     class Meta:
         managed = False
         db_table = 'usuario_estereotipado'
+class Wcag(models.Model):
+    idwcag = models.AutoField(primary_key=True)
+    numero = models.CharField(max_length=45)
+    titulo = models.CharField(max_length=60)
+    descripcion = models.CharField(max_length=650)
+    nivel = models.CharField(max_length=3)
+    uri = models.CharField(max_length=200)
+
+    class Meta:
+        managed = False
+        db_table = 'wcag'
+class Barrera(models.Model):
+    idbarrera = models.AutoField(primary_key=True)
+    nombre = models.CharField(max_length=150)
+
+    class Meta:
+        managed = False
+        db_table = 'barrera'
+
+class BarreraEstereotipo(models.Model):
+    idbarrera = models.IntegerField(primary_key=True)
+    idestereotipo = models.IntegerField()
+    idwcag = models.IntegerField()
+
+    class Meta:
+        managed = False
+        db_table = 'barreras_estereotipos'
+        unique_together = (('idbarrera', 'idestereotipo','idwcag'),)
