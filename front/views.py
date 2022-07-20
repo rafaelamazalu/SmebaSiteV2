@@ -2,7 +2,6 @@ from django.http.response import HttpResponseRedirect
 from django.shortcuts import render
 from django.http import HttpResponse
 import httpagentparser
-<<<<<<< HEAD
 from .models import BarreraEstereotipo, Cuestionario, Genero, Idioma, Pregunta, Respuesta, RespuestaCuestionario, Usuario, Wcag, Barrera
 from datetime import datetime
 from random import randrange
@@ -10,12 +9,6 @@ import subprocess
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
 from rest_framework import status
-=======
-from .models import Cuestionario, Genero, Idioma, Pregunta, Respuesta, RespuestaCuestionario, Usuario
-from datetime import datetime
-from random import randrange
-import subprocess
->>>>>>> b8bbdb783c1aa74c5296c06ffbd9a681217a3145
 # Create your views here.
 def index(request):
     args = {}
@@ -150,12 +143,11 @@ def next_questionnaire_question(request):
         else:
             process_questionnaire(cuestionario.idcuestionario)
             return render(request, 'front/finish_questionnaire.html',args)
-<<<<<<< HEAD
 
 def call_controller_agent(barreras):
     resultado ='['
     for barrera in barreras:
-        resultado = resultado + 
+        resultado = resultado
     process = subprocess.Popen(['python','agents/agentControllerAnalyzer.py','--facts=' + resultado],
                         stdout=subprocess.PIPE, 
                         stderr=subprocess.PIPE)
@@ -173,5 +165,3 @@ def analyze(request):
         
 
         return Response({'success': True}, status=status.HTTP_201_CREATED)
-=======
->>>>>>> b8bbdb783c1aa74c5296c06ffbd9a681217a3145

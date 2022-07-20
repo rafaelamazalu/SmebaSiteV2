@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>{% block title %}{% endblock %} | MASWAE</title>
+    <title>{% block title%}{% endblock %} - SMEBA</title>
 </head>
 <body>
     {% load bootstrap4 %}
@@ -12,11 +12,56 @@
     
     <div class="container">
         <nav class="navbar navbar-light bg-light">
-            <span class="navbar-brand mb-0 h1">MASWAE-<small style="font-style: italic;">Multi Agent System for Accesibility Evaluation</small></span>
+            <span class="navbar-brand mb-0 h1">SMEBA | <small style="font-style: italic;">Sistema multiagente para la evaluación de barreras de accesibilidad</small></span>
         </nav>
         <div class="row">
         <div class="col-8">
-            <h1>Descripcion de la herramienta</h1>
+            <h1>Accesibilidad Web</h1>
+            <p>
+                La accesibilidad web es la práctica inclusiva de garantizar la 
+accesibilidad a los sitios web, y que las herramientas y las tecnologías
+estén diseñados y desarrollados para que sean utilizados por el máximo número de personas posibles. Es decir, 
+las personas pueden percibir, comprender, navegar e interactuar con la web sin importar sus limitaciones físicas, cognitivas o tecnológicas.
+            </p>
+            <h1>Evaluación de la accesibilidad Web</h1>
+            <p>
+                La evaluación de la Accesibilidad Web abarca una amplia gama de disciplinasy habilidades y requiere no solo conocimiento sobre aspectos técnicosrelacionados con las tecnologías Web, directrices, estándares y herramientas deevaluación, sino también aspectos no técnicos como la participación de los usuarios finales en el proceso de evaluación.
+            </p>
+            <h1>SMEBA</h1>
+            <p>
+                Con el objetivo de simplificar el proceso de toma de decisiones y reducir la intervención humana, se propone una solución basada en agentes inteligentes para la evaluación de barreras de accesibilidad de acuerdo a las necesidades del usuario, focalizando en aquellos con limitaciones visuales.
+Así, se presentamos a SMEBA el Sistema Multi-agente para
+la Evaluación de Barreras de Accesibilidad, cuyo proceso de toma de decisiones  se compone de dos etapas:
+            </p>
+            <p>
+                Una primera instancia de clasificación de las características de un usuario con limitaciones visuales en estereotipos
+    Una segunda instancia de evaluación de adecuación de accesibilidad de los sitios Web que visite, ajustada a las recomendaciones de las Guías de Accesibilidad al Contenido Web 2.1.
+            </p>
+            <h1>¿Cómo funciona?</h1>
+            <div class="row">
+                <div class="col-3">
+                    {% load static %}
+                    <img src="{% static 'maswae/images/user-6088317_1280.png' %}" style="width: 80%;" alt="Imagen de perfil de usuario de ejemplo" />
+                </div>
+                <div class="col-9">
+                    <h2>Registración</h2>
+                    <p>
+                        Se solicitará  un nombre de usuario y contraseña y, a través de una serie de preguntas relativas a la persona como edad, nombre y tipos de discapacidades de posee, otras indicaciones con el propósito de obtener información técnica como idioma, uso de tecnología asistiva. Además se realizará una serie de ejercicios adaptados a la web para capturar información de capacidad visual del usuario.
+                    </p>
+                </div>
+            </div>
+            <div class="row" style="margin-top: 1em;">
+                <div class="col-3">
+                    {% load static %}
+                    <img src="{% static 'maswae/images/plugin.png' %}" style="width: 80%;" alt="Imagen de pieza de bloque" />
+                </div>
+                <div class="col-9">
+                    <h2>Uso</h2>
+                    <p>
+                        Se debe instalar el complemento correspondiente a su navegador. Luego, debe ingresar con su usuario y contraseña para poder comenzar con la evaluación de barreras de accesibilidad en la página web que desee analizar.
+                    </p>
+                </div>
+            </div>
         </div>
         <div class="col-4">
             <div class="row">
@@ -33,11 +78,12 @@
                             <label for="user_password">Clave</label>
                             <input type="password" class="form-control" id="user_password"/>
                         </div>
-                        {% buttons submit='Ingresar' reset="Cancel" %}{% endbuttons %}
+                        <input type="submit" class="btn btn-primary" value="Ingresar" style="background-color: #120064;"/>
+                        <input type="reset" class="btn btn-secondary" value="Limpiar" />
                     </form>
                 </div>
                 <div class="col-12">
-                    <p>Si desea registrarse presione <a href='register'>aquí</a></p>
+                    <p>Si desea registrarse presione <a href='register' class="btn btn-success" style="background-color: #00581d;">aquí</a></p>
                 </div>
             </div>
         </div>
